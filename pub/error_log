@@ -1,0 +1,10 @@
+[30-Aug-2014 18:35:05 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'karpatya'@'localhost' (using password: YES) in /home/karpatya/public_html/pub/db.php on line 2
+[30-Aug-2014 18:35:05 Europe/Helsinki] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/karpatya/public_html/pub/db.php on line 3
+[30-Aug-2014 18:35:05 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/karpatya/public_html/pub/db.php on line 6
+[30-Aug-2014 18:35:05 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/karpatya/public_html/pub/db.php on line 6
+[30-Aug-2014 18:35:05 Europe/Helsinki] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/karpatya/public_html/pub/db.php on line 31
+[30-Aug-2014 18:35:15 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'karpatya'@'localhost' (using password: YES) in /home/karpatya/public_html/pub/db.php on line 2
+[30-Aug-2014 18:35:15 Europe/Helsinki] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/karpatya/public_html/pub/db.php on line 3
+[30-Aug-2014 18:35:15 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/karpatya/public_html/pub/db.php on line 6
+[30-Aug-2014 18:35:15 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/karpatya/public_html/pub/db.php on line 6
+[30-Aug-2014 18:35:15 Europe/Helsinki] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/karpatya/public_html/pub/db.php on line 31

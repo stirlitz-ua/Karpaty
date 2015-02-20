@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="windows-1251">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Баннер</title>
+
+</head>
+<body>
+	<div class="wrapp">
+		
+		<div class="banner" id="banner" style="backgroung:url('images/bit.jpg')">
+			<!--Here javascript runs a canvas and it is showing :) or palys the gif-->
+			<div class="snow"></div>
+      <div id="toys"></div>
+			<img class="bgImage" id="bg_break">
+      <div id="break" class="break"></div>
+			<div class="content" id="content">
+				<h3>Познакомтесь с нашей новогодней коллекцией оригинальных аксессуаров!</h3> <!--Your heading-->
+				<p> <!--Your content-->
+					Необычные ёлочные украшения и игрушки, принятные и полезные аксессуары для дома, активного отдыха и, разумеется вашего Volkswagen.<br>
+          Пусть 2015 год принесет вам много радости и тепла!
+				</p>
+			</div>
+			<div class="slider-wrapp" id="sl_animate" style="right:-550px;">
+				<div id="slider">    			
+    			<ul id="images" style="margin-left: 0px">
+      			 <li><img src="images/1.png"></li>
+      			 <li><img src="images/2.png"></li>
+      			 <li><img src="images/3.png"></li>
+      			 <li><img src="images/4.png"></li>
+     			   <li><img src="images/5.png"></li>
+     			   <li><img src="images/6.png"></li>
+     			   <li><img src="images/7.png"></li>
+     			   <li><img src="images/8.png"></li>
+     			   <li><img src="images/9.png"></li>
+     			   <li><img src="images/10.png"></li>
+    			</ul>
+    			</div>
+    		 <div id="arrow-left" class="arrow" >&#60;</div>	
+   			 <div id="arrow-right" class="arrow" >&#62;</div>
+ 		 	</div> <!--Slider wrapper-->
+ 		 	<div class="branches" id="zindex"> 
+				<div class="line_6" id="item_7" style="width:0px;"></div>
+        <div class="line_3" id="item_4" style="width:0px;"></div>
+				<div class="line_2" id="item_3" style="width:0px;"></div>
+				<div class="line_5" id="item_6" style="width:0px;"></div>
+        <div class="line_4" id="item_5" style="width:0px;"></div>
+				<div class="line_1" id="item_1" style="width:845px; visibility:hidden;"></div>
+				<div class="line_7" id="item_2" style="right:100px; visibility:hidden;"></div>
+			</div><!--Animation-->
+		</div> <!--Banner-->
+	</div>
+<script type="text/javascript" id="am_script" src="jss/animation.js"></script>	
+<script type="text/javascript" src="js/carusel.js"></script>
+<script type="text/javascript" src="jss/snow.js"></script>
+<script type="text/javascript">
+//малюємо уламки для попереднього завантаження векграундів
+for (var i = 1; i <=2; i++) {
+  for (var j = 1; j <=4; j++) {
+    var div = document.createElement('div');
+        div.style.background = "url('images/break/"+i+""+j+".png')";
+        div.setAttribute("class","child");
+        div.setAttribute("id","child_"+i+""+j);
+    document.getElementById('break').appendChild(div);
+  }
+}
+//відкладене завантаження анімаціїї
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "js/animation.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener) {
+
+  window.addEventListener("load", downloadJSAtOnload, false);
+}
+else if (window.attachEvent) {
+  window.attachEvent("onload", downloadJSAtOnload);
+}
+else { 
+  window.onload = downloadJSAtOnload;
+}
+</script>
+</body>
+</html>

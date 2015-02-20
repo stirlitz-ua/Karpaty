@@ -1,0 +1,308 @@
+[31-Aug-2014 22:36:52 Europe/Helsinki] PHP Notice:  iconv(): Detected an illegal character in input string in /home/karpatya/public_html/parser/a.php on line 147
+[31-Aug-2014 22:36:52 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[03-Sep-2014 11:04:56 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/karpatya/public_html/parser/a.php on line 76
+[03-Sep-2014 11:05:36 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/karpatya/public_html/parser/a.php on line 89
+[03-Sep-2014 11:05:37 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/karpatya/public_html/parser/a.php on line 89
+[03-Sep-2014 11:05:54 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/karpatya/public_html/parser/a.php on line 179
+[03-Sep-2014 11:54:52 Europe/Helsinki] PHP Notice:  Undefined variable: html in /home/karpatya/public_html/parser/a.php on line 49
+[03-Sep-2014 11:54:52 Europe/Helsinki] PHP Fatal error:  Call to a member function clear() on a non-object in /home/karpatya/public_html/parser/a.php on line 49
+[03-Sep-2014 11:54:53 Europe/Helsinki] PHP Notice:  Undefined variable: html in /home/karpatya/public_html/parser/a.php on line 49
+[03-Sep-2014 11:54:53 Europe/Helsinki] PHP Fatal error:  Call to a member function clear() on a non-object in /home/karpatya/public_html/parser/a.php on line 49
+[03-Sep-2014 11:54:54 Europe/Helsinki] PHP Notice:  Undefined variable: html in /home/karpatya/public_html/parser/a.php on line 49
+[03-Sep-2014 11:54:54 Europe/Helsinki] PHP Fatal error:  Call to a member function clear() on a non-object in /home/karpatya/public_html/parser/a.php on line 49
+[03-Sep-2014 11:55:10 Europe/Helsinki] PHP Notice:  Undefined variable: html in /home/karpatya/public_html/parser/a.php on line 49
+[03-Sep-2014 11:55:10 Europe/Helsinki] PHP Fatal error:  Call to a member function clear() on a non-object in /home/karpatya/public_html/parser/a.php on line 49
+[03-Sep-2014 11:55:49 Europe/Helsinki] PHP Warning:  Invalid argument supplied for foreach() in /home/karpatya/public_html/parser/simple_html_dom.php on line 361
+[03-Sep-2014 11:55:49 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[03-Sep-2014 11:57:46 Europe/Helsinki] PHP Warning:  Invalid argument supplied for foreach() in /home/karpatya/public_html/parser/simple_html_dom.php on line 361
+[03-Sep-2014 11:57:46 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[03-Sep-2014 14:00:08 Europe/Helsinki] PHP Notice:  Undefined variable: html3 in /home/karpatya/public_html/parser/a.php on line 77
+[03-Sep-2014 14:00:08 Europe/Helsinki] PHP Fatal error:  Call to a member function clear() on a non-object in /home/karpatya/public_html/parser/a.php on line 77
+[03-Sep-2014 14:14:38 Europe/Helsinki] PHP Warning:  Invalid argument supplied for foreach() in /home/karpatya/public_html/parser/simple_html_dom.php on line 361
+[03-Sep-2014 14:14:38 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[03-Sep-2014 15:08:25 Europe/Helsinki] PHP Warning:  Invalid argument supplied for foreach() in /home/karpatya/public_html/parser/simple_html_dom.php on line 361
+[03-Sep-2014 15:08:26 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[04-Sep-2014 22:46:27 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[04-Sep-2014 22:46:30 Europe/Helsinki] PHP Notice:  Undefined variable: img in /home/karpatya/public_html/parser/c.php on line 180
+[04-Sep-2014 22:46:30 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[04-Sep-2014 22:56:32 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[04-Sep-2014 23:05:46 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[04-Sep-2014 23:34:23 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 00:11:46 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 00:19:04 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 12:14:04 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 13:17:18 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 13:34:59 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 13:42:01 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 13:49:02 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 14:14:07 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 14:21:09 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 14:24:40 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 15:33:38 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 15:42:37 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 15:49:39 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 16:10:42 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 16:17:43 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 16:27:35 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 16:31:50 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 16:50:12 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 16:57:14 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 17:11:17 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 17:18:19 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 17:32:22 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 17:39:24 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 17:46:40 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 17:47:40 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 18:19:21 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 18:26:22 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 18:40:26 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 18:47:30 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 18:57:59 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 19:13:49 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 19:23:36 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 19:37:37 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 19:44:58 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 20:12:27 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 20:19:28 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 20:31:32 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 20:35:05 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 20:37:02 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 20:40:34 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 20:47:55 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 20:52:35 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 20:58:39 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 20:59:39 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 21:02:28 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 21:06:02 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 21:16:35 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 21:21:16 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 21:38:22 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 21:38:54 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 21:42:29 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 21:49:32 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 21:53:07 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 21:55:57 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 21:59:32 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:00:24 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:01:27 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:04:58 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:08:30 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:08:50 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:12:23 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:16:16 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:19:49 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:23:00 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:23:50 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:26:30 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:30:11 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:31:00 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:34:33 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:40:44 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:41:35 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:51:18 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 22:55:53 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 23:01:52 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 23:06:37 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 23:09:11 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 23:23:14 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 23:24:11 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 23:27:57 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[05-Sep-2014 23:34:18 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 01:25:13 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 01:35:17 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 01:42:18 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 01:49:19 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 01:59:45 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 02:05:06 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 02:14:50 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 02:29:02 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 02:39:12 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 02:46:13 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 03:04:53 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 03:15:20 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 03:22:22 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 03:31:37 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 03:39:18 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 03:46:19 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 03:53:20 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 04:07:50 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 04:41:18 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 04:48:21 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 04:55:22 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 05:02:24 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 05:09:25 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 05:16:26 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 05:23:27 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 05:30:28 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 05:37:30 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 05:44:41 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 06:01:23 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 06:15:29 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 06:22:30 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 06:29:31 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 06:43:33 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 06:50:34 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 06:57:36 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 07:04:37 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 07:11:38 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 07:18:39 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 07:35:53 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 07:44:36 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 07:59:55 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 08:06:56 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 08:26:54 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 08:33:56 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 08:40:57 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 08:48:08 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 08:54:19 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 09:17:47 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 09:36:26 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 09:50:28 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 09:57:20 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 14:43:22 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 14:57:24 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 15:04:27 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 15:22:52 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 15:48:11 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 15:55:13 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 16:02:14 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[06-Sep-2014 16:09:15 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 00:38:18 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 00:52:36 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 00:59:38 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 01:06:39 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 01:24:09 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 01:28:51 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 01:35:52 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 01:42:56 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 01:47:57 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 01:54:58 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 02:02:10 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 02:09:11 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 02:33:35 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 02:40:42 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 02:47:43 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 02:54:44 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 13:07:28 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 13:21:31 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 13:28:41 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 14:02:07 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 14:16:09 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 14:26:12 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 14:47:14 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 14:54:24 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 15:04:54 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 15:18:56 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 15:32:58 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 15:40:01 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 15:50:02 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 15:57:04 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 16:11:27 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 16:18:29 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 16:25:36 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 16:32:37 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 16:43:10 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 16:59:56 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 17:06:57 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 17:13:58 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 17:21:08 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 17:28:36 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 17:35:38 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 17:42:39 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 17:46:10 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 17:53:12 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 18:00:13 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 18:07:14 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 18:14:16 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 18:35:24 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 18:49:36 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 19:05:14 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 19:15:57 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 19:26:29 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 19:48:09 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 19:58:40 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 21:00:46 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 21:11:49 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 21:32:51 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 21:39:53 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[07-Sep-2014 21:57:24 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[16-Sep-2014 12:53:10 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end in /home/karpatya/public_html/parser/dress.php on line 82
+[16-Sep-2014 12:54:19 Europe/Helsinki] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/karpatya/public_html/parser/dress.php on line 38
+[16-Sep-2014 12:54:19 Europe/Helsinki] PHP Warning:  mysql_query(): A link to the server could not be established in /home/karpatya/public_html/parser/dress.php on line 38
+[16-Sep-2014 12:54:19 Europe/Helsinki] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/karpatya/public_html/parser/dress.php on line 39
+[16-Sep-2014 12:54:19 Europe/Helsinki] PHP Warning:  mysql_query(): A link to the server could not be established in /home/karpatya/public_html/parser/dress.php on line 39
+[16-Sep-2014 12:54:19 Europe/Helsinki] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/karpatya/public_html/parser/dress.php on line 41
+[16-Sep-2014 12:54:19 Europe/Helsinki] PHP Warning:  mysql_query(): A link to the server could not be established in /home/karpatya/public_html/parser/dress.php on line 41
+[16-Sep-2014 12:54:19 Europe/Helsinki] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/karpatya/public_html/parser/dress.php on line 42
+[16-Sep-2014 12:54:19 Europe/Helsinki] PHP Warning:  mysql_query(): A link to the server could not be established in /home/karpatya/public_html/parser/dress.php on line 42
+[16-Sep-2014 12:54:22 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[16-Sep-2014 12:55:23 Europe/Helsinki] PHP Notice:  Undefined variable: model in /home/karpatya/public_html/parser/dress.php on line 64
+[16-Sep-2014 12:55:23 Europe/Helsinki] PHP Notice:  Undefined variable: marka in /home/karpatya/public_html/parser/dress.php on line 65
+[16-Sep-2014 12:55:23 Europe/Helsinki] PHP Notice:  Undefined variable: type in /home/karpatya/public_html/parser/dress.php on line 66
+[16-Sep-2014 12:55:23 Europe/Helsinki] PHP Notice:  Undefined variable: cat in /home/karpatya/public_html/parser/dress.php on line 67
+[16-Sep-2014 12:55:23 Europe/Helsinki] PHP Notice:  Undefined variable: title in /home/karpatya/public_html/parser/dress.php on line 68
+[16-Sep-2014 12:55:23 Europe/Helsinki] PHP Notice:  Undefined variable: price in /home/karpatya/public_html/parser/dress.php on line 69
+[16-Sep-2014 12:55:23 Europe/Helsinki] PHP Notice:  Undefined variable: artikul in /home/karpatya/public_html/parser/dress.php on line 70
+[16-Sep-2014 12:55:23 Europe/Helsinki] PHP Notice:  Undefined variable: meta in /home/karpatya/public_html/parser/dress.php on line 71
+[16-Sep-2014 12:55:23 Europe/Helsinki] PHP Notice:  Undefined variable: year in /home/karpatya/public_html/parser/dress.php on line 73
+[16-Sep-2014 12:55:23 Europe/Helsinki] PHP Notice:  Undefined variable: img in /home/karpatya/public_html/parser/dress.php on line 73
+[16-Sep-2014 13:03:19 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_STRING in /home/karpatya/public_html/parser/dress.php on line 47
+[16-Sep-2014 13:04:32 Europe/Helsinki] PHP Notice:  Undefined variable: NAZVA in /home/karpatya/public_html/parser/dress.php on line 81
+[16-Sep-2014 13:04:32 Europe/Helsinki] PHP Notice:  Undefined variable: OPIS in /home/karpatya/public_html/parser/dress.php on line 82
+[16-Sep-2014 13:05:16 Europe/Helsinki] PHP Notice:  Undefined variable: NAZVA in /home/karpatya/public_html/parser/dress.php on line 81
+[16-Sep-2014 13:05:16 Europe/Helsinki] PHP Notice:  Undefined variable: OPIS in /home/karpatya/public_html/parser/dress.php on line 82
+[16-Sep-2014 13:19:14 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 70
+[16-Sep-2014 13:19:14 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 73
+[16-Sep-2014 13:19:14 Europe/Helsinki] PHP Warning:  preg_replace(): Unknown modifier '>' in /home/karpatya/public_html/parser/dress.php on line 75
+[16-Sep-2014 13:19:14 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 86
+[16-Sep-2014 13:21:23 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 70
+[16-Sep-2014 13:21:23 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 73
+[16-Sep-2014 13:21:23 Europe/Helsinki] PHP Warning:  preg_replace(): Unknown modifier '>' in /home/karpatya/public_html/parser/dress.php on line 76
+[16-Sep-2014 13:21:23 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 87
+[16-Sep-2014 13:22:21 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 70
+[16-Sep-2014 13:22:21 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 73
+[16-Sep-2014 13:23:55 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 70
+[16-Sep-2014 13:23:55 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 73
+[16-Sep-2014 13:23:55 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 86
+[16-Sep-2014 13:26:11 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 72
+[16-Sep-2014 13:26:11 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 74
+[16-Sep-2014 13:26:11 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 77
+[16-Sep-2014 13:26:11 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 90
+[16-Sep-2014 13:28:00 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 79
+[16-Sep-2014 13:28:00 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 92
+[16-Sep-2014 13:28:32 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 79
+[16-Sep-2014 13:28:32 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 92
+[16-Sep-2014 13:28:41 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 79
+[16-Sep-2014 13:28:41 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 92
+[16-Sep-2014 13:29:00 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 79
+[16-Sep-2014 13:29:00 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 92
+[16-Sep-2014 13:40:06 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 79
+[16-Sep-2014 13:40:06 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 92
+[16-Sep-2014 13:41:48 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 79
+[16-Sep-2014 13:41:48 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 85
+[16-Sep-2014 13:41:48 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 95
+[16-Sep-2014 13:41:48 Europe/Helsinki] PHP Notice:  Uninitialized string offset: 0 in /home/karpatya/public_html/parser/dress.php on line 96
+[16-Sep-2014 13:41:56 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 79
+[16-Sep-2014 13:41:56 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 85
+[16-Sep-2014 13:41:56 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 95
+[16-Sep-2014 13:41:56 Europe/Helsinki] PHP Notice:  Uninitialized string offset: 0 in /home/karpatya/public_html/parser/dress.php on line 96
+[16-Sep-2014 13:42:42 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[16-Sep-2014 13:43:06 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 85
+[16-Sep-2014 13:43:06 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 95
+[16-Sep-2014 13:43:06 Europe/Helsinki] PHP Notice:  Uninitialized string offset: 0 in /home/karpatya/public_html/parser/dress.php on line 96
+[16-Sep-2014 13:44:00 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 98
+[16-Sep-2014 13:44:00 Europe/Helsinki] PHP Notice:  Uninitialized string offset: 0 in /home/karpatya/public_html/parser/dress.php on line 99
+[16-Sep-2014 13:44:45 Europe/Helsinki] PHP Warning:  addslashes() expects parameter 1 to be string, array given in /home/karpatya/public_html/parser/dress.php on line 98
+[16-Sep-2014 13:47:48 Europe/Helsinki] PHP Notice:  Undefined variable: j in /home/karpatya/public_html/parser/dress.php on line 90
+[16-Sep-2014 13:47:48 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/karpatya/public_html/parser/dress.php on line 98
+[16-Sep-2014 13:48:10 Europe/Helsinki] PHP Notice:  Undefined variable: j in /home/karpatya/public_html/parser/dress.php on line 90
+[16-Sep-2014 13:48:34 Europe/Helsinki] PHP Notice:  Undefined variable: j in /home/karpatya/public_html/parser/dress.php on line 90
+[16-Sep-2014 13:52:01 Europe/Helsinki] PHP Warning:  file_get_contents(5864cd71ec4ead61ed5d2672e91e392569d2a73e.jpg): failed to open stream: No such file or directory in /home/karpatya/public_html/parser/dress.php on line 113
+[16-Sep-2014 14:36:28 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_STRING in /home/karpatya/public_html/parser/dress.php on line 118
+[16-Sep-2014 15:00:35 Europe/Helsinki] PHP Notice:  Undefined variable: PHOTO in /home/karpatya/public_html/parser/dress.php on line 106
+[16-Sep-2014 15:00:35 Europe/Helsinki] PHP Notice:  Undefined variable: NAZVA in /home/karpatya/public_html/parser/dress.php on line 107
+[16-Sep-2014 15:00:35 Europe/Helsinki] PHP Notice:  Undefined variable: OPIS in /home/karpatya/public_html/parser/dress.php on line 108
+[16-Sep-2014 15:00:35 Europe/Helsinki] PHP Notice:  Undefined variable: ARTIC in /home/karpatya/public_html/parser/dress.php on line 109
+[16-Sep-2014 15:00:35 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[16-Sep-2014 15:50:48 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129
+[16-Sep-2014 16:36:28 Europe/Helsinki] PHP Fatal error:  Call to a member function find() on a non-object in /home/karpatya/public_html/parser/simple_html_dom.php on line 1129

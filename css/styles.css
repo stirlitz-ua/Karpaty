@@ -1,0 +1,51 @@
+/* common */
+p {
+	fontFamily:"Arial";
+	color:#FFFFFF;
+	fontSize:12px;
+    leading:0px;
+}
+
+a:link { color:#2274AC; text-decoration:underline; }
+a:hover  { color:#2274AC; text-decoration:underline; }
+
+.head { 
+	font-family: Arial; 
+	color: #FFFFFF;
+	font-size: 24;
+}
+
+.copy { 
+	font-family: Arial; 
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.price { 
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+/**/
+
+/* */
+.skipBtn { 
+	font-family: Arial; 
+	/*color: #FFFFFF;*/ /*Farbe über XML-Datei konfiguriert.*/
+	font-size: 12px;
+}
+
+.staticText { 
+	font-family: Arial; 
+	/*color: #FFFFFF;*/ /*Farbe über XML-Datei konfiguriert.*/
+	font-size: 12px;
+}
+
+.overText { 
+	font-family: Arial; 
+	/*color: #FFFFFF;*/ /*Farbe über XML-Datei konfiguriert.*/
+	font-size: 12px;
+}
+/**/
+

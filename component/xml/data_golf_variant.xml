@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edit-data>
+  <stylesheetURL type="media-ref">../../css/styles.css</stylesheetURL>
+  <fontsURL type="media-ref">../../component/swf/fonts.swf</fontsURL>
+  <backgroundColor type="text">FFFFFF</backgroundColor>
+  <headline type="text">Новая цена на Volkswagen Golf Variant - КарпатыАвтоцентр / Официальный</headline>
+  <headlineWidth type="integer">400</headlineWidth>
+  <copy type="text"/>
+  <copyWidth type="integer">400</copyWidth>
+  <price type="text"/>
+  <textColor type="text">000000</textColor>
+  <skipButton type="text">Пропустить</skipButton>
+  <skipColor type="text">FFFFFF</skipColor>
+  <skipOverColor type="text">2275AC</skipOverColor>
+  <redirectAtVideoEnd type="link-ref"/>
+  <redirectTarget type="text">_self</redirectTarget>
+  <imageVideoEnd type="media-ref">../../photo/model/b_golf_variant.jpg</imageVideoEnd>
+  <trackingConfiguration>
+    <isActive type="boolean">true</isActive>
+    <debugTracking type="boolean">false</debugTracking>
+    <visitorNamespace type="text">volkswagenpkw</visitorNamespace>
+    <dc type="text">112</dc>
+    <trackingServer type="text">metric.volkswagen.com</trackingServer>
+    <trackingServerSecure type="text">smetric.volkswagen.com</trackingServerSecure>
+    <account type="text">vwpkwrucmsprod</account>
+  </trackingConfiguration>
+  <trackingCommonProperties>
+    <eVar1 type="text">CMS-RU-RU</eVar1>
+    <prop8 type="text">CMS-RU-RU</prop8>
+    <eVar17 type="text">ru</eVar17>
+    <prop17 type="text">ru</prop17>
+    <eVar25 type="text">ru-RU</eVar25>
+    <prop29 type="text">ru-RU</prop29>
+  </trackingCommonProperties>
+  <video/>
+  <teaser/>
+</edit-data>
