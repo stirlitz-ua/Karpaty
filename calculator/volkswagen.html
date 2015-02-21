@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<style>
+		table tr:nth-child(1), #brands {display:none;}
+		table tr:nth-child(2) select {display:none;}
+		table tr:nth-child(3) select {display:none;}
+	</style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+	
+	<script type="text/javascript" src="datepicker/js/bootstrap-datepicker.js"></script>
+	<link href="datepicker/css/datepicker.css" rel="stylesheet" type="text/css">
+	
+	<script>
+  $('#datepicker').on('changeDate', function(ev){
+        $(this).datepicker('hide');
+    });
+		jQuery(function($){
+
+		var car = 'Skoda';
+		var model = '';
+		var engine = '';
+		var date = '';
+		var probeg = '';
+			$('#to_models').change(function(){
+				$('#datepicker').hide();
+				$('#probeg').hide();
+				$('#calc').hide();
+				$('.to_select select').hide();
+				$('.to_select select[data-onchange*="'+$(this).val()+'/"]').show();
+				console.log($(this).val());
+				model = $(this).val();
+			});
+			$('.to_select select').change(function(){
+				$('#datepicker').show();
+				$('#probeg').show();
+				$('#dp3').datepicker();
+				console.log($(this).val());
+				engine = $(this).val();
+			});
+			$('#to_probeg').change(function(){
+				$('#calc').show();
+			});
+			$('#calc').click(function(){		
+				date =  $('#dp3 input').val().replace(/\s+/g, '');
+				probeg = $('#to_probeg').val();
+				$('#result').attr('src', "http://www.avtosojuz.ua/technical_service/"+car+"/"+model+"/"+engine+"/"+date+"/"+probeg);
+				$('#resultos').show();
+			});
+			   $('#dp3').on('changeDate', function(){
+ $('.datepicker.dropdown-menu').hide();
+});
+$('#dp3 input').click(function(){
+ $('.datepicker.dropdown-menu').show();
+});
+		});
+		
+		//data-onchange="top.location.href= '/technical_service/Audi/A6/Audi_A6_3.2_FSI_(188_кВт)/' + str_replace('.','',document.getElementById('sell_date').value) + '/' + this.options[selectedIndex].value"
+	</script>
+</head>
+<body>
+
+
+<select id="to_models" name="new_to_cars_models">
+        <option value="3rfq34wte4rE" selected="selected">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option>
+</select>
+
+
+<table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option selected="selected" value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Amarok/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Amarok_2.0_TDI_(120_кВт)">Amarok 2.0 TDI (120 кВт)</option></select></td></tr></tbody></table>
+
+
+        <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option selected="selected" value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Caddy/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Caddy_1.2_TSI_(63кВт)">Caddy 1.2 TSI (63кВт)</option><option value="Caddy_1.4_(59_кВт)">Caddy 1.4 (59 кВт)</option><option value="Caddy_1.6_(75_кВт)">Caddy 1.6 (75 кВт)</option><option value="Caddy_1.6_TDI_(75_кВт)">Caddy 1.6 TDI (75 кВт)</option><option value="Caddy_1.9_TDI_(77кВт)">Caddy 1.9 TDI (77кВт)</option><option value="Caddy_2.0_SDI_(51кВт)">Caddy 2.0 SDI (51кВт)</option><option value="Caddy_2.0_TDI_(81_кВт)">Caddy 2.0 TDI (81 кВт)</option></select></td></tr></tbody></table>
+
+        <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option selected="selected" value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Crafter/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Crafter_2.0_TDI_(120_кВт)">Crafter 2.0 TDI (120 кВт)</option><option value="Crafter_2.5_TDI_(120кВт)">Crafter 2.5 TDI (120кВт)</option></select></td></tr></tbody></table>
+
+
+
+        <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option selected="selected" value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Golf/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Golf__2.0_R_188_TSI_(188_кВт)">Golf  2.0 R 188 TSI (188 кВт)</option><option value="Golf_1.6_(75_кВт)">Golf 1.6 (75 кВт)</option><option value="Golf_1.6_TDI_(77_кВт)">Golf 1.6 TDI (77 кВт)</option><option value="Golf_1.9_TDI_(77кВт)">Golf 1.9 TDI (77кВт)</option><option value="Golf_GT_2.0_TDI_(103кВт)_DSG">Golf GT 2.0 TDI (103кВт) DSG</option></select></td></tr></tbody></table>
+
+
+<table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option selected="selected" value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Golf_7/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Golf_7_1.2_TFSI">Golf 7 1.2 TFSI</option><option value="Golf_7_1.4_TFSI">Golf 7 1.4 TFSI</option><option value="Golf_7_2.0_D_DSG">Golf 7 2.0 D DSG</option><option value="Golf_7_2.0_TFSI_DSG">Golf 7 2.0 TFSI DSG</option></select></td></tr></tbody></table>
+
+        <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option selected="selected" value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Passat_/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Passat_1.8_TFSI_(118кВт)_АКПП">Passat 1.8 TFSI (118кВт) АКПП</option><option value="Passat_2.0_FSI_(110_кВт)">Passat 2.0 FSI (110 кВт)</option><option value="Passat_2.0_TDI_(103_кВт)_DSG">Passat 2.0 TDI (103 кВт) DSG</option><option value="Passat_3.2_FSI_(184_кВт)">Passat 3.2 FSI (184 кВт)</option><option value="Passat_CC_1.8_TFSI_(118_кВт)">Passat CC 1.8 TFSI (118 кВт)</option><option value="Passat_CC_2.0_TFSI_(147кВт)_АКПП">Passat CC 2.0 TFSI (147кВт) АКПП</option></select></td></tr></tbody></table>
+
+
+        <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option selected="selected" value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Passat_7/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Passat_7_1.4_TSI_(90-118_кВт)">Passat 7 1.4 TSI (90-118 кВт)</option><option value="Passat_7_1.8_TSI_DSG">Passat 7 1.8 TSI DSG</option><option value="Passat_7_2.0_TDI_DSG">Passat 7 2.0 TDI DSG</option><option value="Passat_7_2.0_TSI_DSG">Passat 7 2.0 TSI DSG</option></select></td></tr></tbody></table>
+
+
+
+        <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option selected="selected" value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Polo/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Polo_1.4_(59_кВт)">Polo 1.4 (59 кВт)</option><option value="Polo_1.6_(77_кВт)">Polo 1.6 (77 кВт)</option><option value="Polo_A5_1.2_MPI">Polo A5 1.2 MPI</option><option value="Polo_A5_1.2_TDI_DSG">Polo A5 1.2 TDI DSG</option><option value="Polo_A5_1.2_TSI_DSG">Polo A5 1.2 TSI DSG</option><option value="Polo_A5_1.4_(63кВт)">Polo A5 1.4 (63кВт)</option></select></td></tr></tbody></table>
+
+
+        <form id="tc" method="POST" action="/technical_service/VW/Polo_Sedan"><div><div style="font-weight:bold;font-style:italic;padding:10px 10px 10px 40px;"></div>
+          <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option selected="selected" value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Polo_Sedan/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="1.6_77_кВт">1.6 77 кВт</option></select></td></tr></tbody></table></div></form>
+
+
+
+        <form id="tc" method="POST" action="/technical_service/VW/Sharan"><div><div style="font-weight:bold;font-style:italic;padding:10px 10px 10px 40px;"></div>
+          <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option selected="selected" value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Sharan/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Sharan_1.8T_(110_кВт)">Sharan 1.8T (110 кВт)</option></select></td></tr></tbody></table></div></form>
+
+
+        <form id="tc" method="POST" action="/technical_service/VW/T5"><div><div style="font-weight:bold;font-style:italic;padding:10px 10px 10px 40px;"></div>
+          <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option selected="selected" value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/T5/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="T5_1.9_TDI_(77_кВт)">T5 1.9 TDI (77 кВт)</option><option value="T5_2.0_(85_кВт)">T5 2.0 (85 кВт)</option><option value="T5_2.5_TDI_(96_кВт)">T5 2.5 TDI (96 кВт)</option><option value="T5_GP_2.0_TDI_(75_кВт)">T5 GP 2.0 TDI (75 кВт)</option></select></td></tr></tbody></table></div></form>
+
+
+        <form id="tc" method="POST" action="/technical_service/VW/Tiguan"><div><div style="font-weight:bold;font-style:italic;padding:10px 10px 10px 40px;"></div>
+          <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option selected="selected" value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Tiguan/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Tiguan_1.4_TSI_(110_кВт)_4X4">Tiguan 1.4 TSI (110 кВт) 4X4</option><option value="Tiguan_2.0_TDI_(103_кВт)_4X4">Tiguan 2.0 TDI (103 кВт) 4X4</option><option value="Tiguan_2.0_TSI_(125_кВт)_4X4">Tiguan 2.0 TSI (125 кВт) 4X4</option></select></td></tr></tbody></table></div></form>
+
+
+
+        <form id="tc" method="POST" action="/technical_service/VW/Touareg_"><div><div style="font-weight:bold;font-style:italic;padding:10px 10px 10px 40px;"></div>
+          <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option selected="selected" value="Touareg_">Touareg </option><option value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Touareg_/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Touareg_2.5_TDI_(128_кВт)">Touareg 2.5 TDI (128 кВт)</option><option value="Touareg_3.0_TDI_(165_кВт)">Touareg 3.0 TDI (165 кВт)</option><option value="Touareg_3.0_TDI_(176_кВт)">Touareg 3.0 TDI (176 кВт)</option><option value="Touareg_3.2_(177_кВт)">Touareg 3.2 (177 кВт)</option><option value="Touareg_3.6_FSI_(206_кВт)">Touareg 3.6 FSI (206 кВт)</option><option value="Touareg_4.2_FSI_(257_кВт)">Touareg 4.2 FSI (257 кВт)</option><option value="Touareg_NF_3.0_TDI_(176_кВт)">Touareg NF 3.0 TDI (176 кВт)</option><option value="Touareg_NF_3.0_V6_FSI_(245_кВт)">Touareg NF 3.0 V6 FSI (245 кВт)</option></select></td></tr></tbody></table></div></form>
+
+
+
+        <form id="tc" method="POST" action="/technical_service/VW/Touran"><div><div style="font-weight:bold;font-style:italic;padding:10px 10px 10px 40px;"></div>
+          <table cellpadding="0" cellspacing="0" border="0" class="to_select"><tbody><tr>
+          <td colspan="2">
+            <table cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+             <td colspan="3" style="text-align:center;font-weight:bold;font-size:14px;">Марка автомобиля</td></tr><tr id="brands">
+             <td><a href="/technical_service/VW"><img style="border:2px solid;margin:5px;padding:5px;border-color:#c1c1c1" src="/img/sys/volkswagen.png" alt="Техническое обслуживание Фольксваген"></a></td>
+             <td><a href="/technical_service/Audi"><img src="/img/sys/audi.png" alt="Техническое обслуживание Ауди"></a></td>
+             <td><a href="/technical_service/Skoda"><img src="/img/sys/skoda.png" alt="Техническое обслуживание Шкода"></a></td></tr></tbody></table>
+           </td></tr>
+  <tr><!--<td>Модель: </td>--><td><select name="to_car_models" data-onchange="top.location.href = '/technical_service/VW/' + this.options[selectedIndex].value">
+        <option value="0">выберите модель</option><option value="Amarok">Amarok</option><option value="Caddy">Caddy</option><option value="Crafter">Crafter</option><option value="Golf">Golf</option><option value="Golf_7">Golf 7</option><option value="Passat_">Passat </option><option value="Passat_7">Passat 7</option><option value="Polo">Polo</option><option value="Polo_Sedan">Polo Sedan</option><option value="Sharan">Sharan</option><option value="T5">T5</option><option value="Tiguan">Tiguan</option><option value="Touareg_">Touareg </option><option selected="selected" value="Touran">Touran</option></select></td></tr>
+  <tr><!--<td>Двигатель:</td>--><td><select name="to_car_names" data-onchange="top.location.href= '/technical_service/VW/Touran/' + this.options[selectedIndex].value">
+        <option value="0">выберите двигатель</option><option value="Touran_1.4_TSI_(103_кВт)">Touran 1.4 TSI (103 кВт)</option><option value="Touran_1.6_(75_кВт)">Touran 1.6 (75 кВт)</option><option value="Touran_2.0_TDI_(103_кВт)">Touran 2.0 TDI (103 кВт)</option></select></td></tr></tbody></table></div></form>
+		
+		
+<div id="datepicker" style="display:none">
+	<div class="input-append date" id="dp3" data-date="12.02.2014" data-date-format="dd mm yyyy">
+	  <input class="span2" size="16" type="text" value="12.02.2014">
+	  <span class="add-on"><i class="icon-th"></i></span>
+	</div>
+</div>
+<div id="probeg" style="display:none">
+	<select name="to_probeg" id="to_probeg">
+               <option value="0">выберите пробег</option><option value="1">15 000</option><option value="2">30 000</option><option value="3">45 000</option><option value="4">60 000</option><option value="5">75 000</option><option value="6">90 000</option><option value="7">105 000</option><option value="8">120 000</option><option value="9">135 000</option><option value="10">150 000</option><option value="11">165 000</option><option value="12">180 000</option><option value="13">195 000</option><option value="14">210 000</option>
+	</select>
+
+	<input name="calc" id="calc" type="submit" value="Показать" style="width: 100px;" />
+</div>
+		
+	
+	<div id="resultos" style="width: 350px; height: 454px; overflow: hidden;">
+		<iframe id="result" src="#" width="1500" height="2500" scrolling="no" frameborder="0" style="margin-top: -461px;margin-left: -673px;overflow:hidden;"></iframe>
+	</div>
+		
+		
+</body>
+</html>

@@ -1,0 +1,298 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Futuris C";
+  src: url("../fonts/FuturisCyrillic.eot");
+  src: local("тШ║"), url("../fonts/FuturisCyrillic.eot") format("embedded-opentype"), url("../fonts/FuturisCyrillic.woff") format("woff"), url("../fonts/FuturisCyrillic.ttf") format("truetype"), url("../fonts/FuturisCyrillic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futuris XC";
+  src: url("../fonts/FuturisXC-Bold.eot");
+  src: local("тШ║"), url("../fonts/FuturisXC-Bold.eot") format("embedded-opentype"), url("../fonts/FuturisXC-Bold.woff") format("woff"), url("../fonts/FuturisXC-Bold.ttf") format("truetype"), url("../fonts/FuturisXC-Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+.wrapp {
+  margin-left: -10px;
+    margin-top: -6px;
+
+  /*width: 1000px;
+  height: 500px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px 2px #909090;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 20px;
+*/}
+
+.banner {
+  position: relative;
+  width: 960px;
+  height: 335px;
+  border: 1px solid #ccc;
+  background: url("../images/bit.jpg") no-repeat;
+  overflow: hidden;
+}
+
+.banner .bgImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 960px;
+  height: 335px;
+  z-index: 10;
+  background: url("../images/bit.png");
+}
+
+.banner .content {
+  position: absolute;
+  width: 440px;
+  height: 165px;
+  right: 135px;
+  top: 70px;
+  opacity: 0;
+}
+
+.banner .content h3 {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-family: "Futuris XC";
+  font-size: 20px;
+}
+
+.banner .content p {
+  text-align: justify;
+  font-family: "Futuris C";
+  font-size: 20px;
+  margin: 5px 0 5px 0;
+  line-height: 23px;
+  letter-spacing: -0.5px;
+}
+
+.banner .slider-wrapp {
+  width: 490px;
+  height: 80px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.banner #slider {
+  overflow: hidden;
+  width: 482px;
+  height: 80px;
+}
+
+.banner #images {
+  width: 5000px;
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+  margin-left: 0px;
+}
+
+.banner #images li {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  height: 55px;
+  width: 82px;
+  background: linear-gradient(to top, #c6d0da, #f1f2f4);
+  border: 2px solid #FFF;
+  box-shadow: 1px 1px 2px #b0b9c8;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.banner #images li::before {
+  content: "";
+  position: absolute;
+  display: "block";
+  top: -5px;
+  left: -5px;
+  width: 92px;
+  height: 65px;
+  background: url("../images/carusel_pattern_2.png");
+  background-size: cover;
+  z-index: 1;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.banner #images li:hover {
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  transform: scale(1.1);
+}
+
+.banner #images li img {
+  position: absolute;
+  width: 82px;
+  bottom: 0px;
+}
+
+.banner #arrow-left {
+  left: -30px;
+}
+
+.banner #arrow-right {
+  right: -20px;
+}
+
+.banner .arrow {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 25px;
+  height: 25px;
+  top: 25px;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px #b0b9c8;
+  font-family: "Futuris XC";
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+.banner .arrow:active {
+  transform: translate(1px, 1px);
+}
+
+.snow {
+  width: 100%;
+  height: 100%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  background: url("../images/sno_ani05.gif");
+  z-index: 5;
+}
+
+.slider-wrapp, .content, .arrow {
+  z-index: 6;
+}
+
+.banner .branches,
+.banner .line_1,
+.banner .line_2,
+.banner .line_3,
+.banner .line_4,
+.banner .line_5,
+.banner .line_6,
+.banner .line_7 {
+  position: absolute;
+  width: 280px;
+  height: 335px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.banner .branches {
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 960px;
+  height: 335px;
+}
+
+.banner .branches .line_1 {
+  background: url("../images/line_1.png") no-repeat;
+}
+
+.banner .branches .line_2 {
+  background: url("../images/line_2.png") no-repeat;
+}
+
+.banner .branches .line_3 {
+  background: url("../images/line_3.png") no-repeat;
+}
+
+.banner .branches .line_4 {
+  background: url("../images/line_4.png") no-repeat;
+}
+
+.banner .branches .line_5 {
+  background: url("../images/line_5.png") no-repeat;
+}
+
+.banner .branches .line_6 {
+  background: url("../images/line_6.png") no-repeat;
+}
+
+.banner .branches .line_7 {
+  background: url("../images/line_7.png") no-repeat;
+}
+
+.banner .branches .line_1 {
+  width: 960px;
+  height: 82px;
+}
+
+.banner .branches .line_3 {
+  right: 680px;
+  left: auto;
+}
+
+.banner .branches .line_4 {
+  left: 80px;
+}
+
+.banner .branches .line_5 {
+  right: 730px;
+  left: auto;
+}
+
+.banner .branches .line_6 {
+  width: 100px;
+  height: 100px;
+  left: 91px;
+  top: 4px;
+}
+
+.banner .branches .line_7 {
+  width: 50px;
+  height: 65px;
+  right: 80px;
+  bottom: 4px;
+  left: auto;
+}
+
+.banner .break {
+  width: 960px;
+  height: 335px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.banner .break .child {
+  width: 960px;
+  height: 335px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner #toys {
+  width: 960px;
+  height: 335px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/bg_pattern.png") no-repeat;
+  opacity: 0;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

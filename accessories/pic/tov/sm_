@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <title>Оригинальные аксессуары Volkswagen</title>  
+            <title></title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/reset-min.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/jquery.lightbox-0.5.css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/jquery.lightbox-0.5.min.js"></script>
+<script type="text/javascript" src="/js/cufon-yui.js"></script>
+<script type="text/javascript" src="/js/iepngfix_tilebg.js"></script>
+<script type="text/javascript" src="/js/FuturaDemiC_600.font.js"></script>
+<script type="text/javascript" src="/js/models.js"></script>
+<script type="text/javascript" src="/js/content.js"></script>
+<script type="text/javascript" src="/js/vw.fonts2.js"></script>
+        
+        
+        <script type="text/javascript">
+            Cufon.replace(".car-ico a", {hover: true});
+            Cufon.replace("h1.original", {hover: true});
+            $(function () {
+        
+                function inputPlaceHolder(input) {
+                    input = $(input);
+                    placeholder = input.data('placeholder');
+                    input.val(placeholder);
+                    input.removeClass('filled');
+                    $(input).val($(input).data('placeholder'));
+                }
+        
+                function inputBlur() {
+                    var input = $(this);
+                    if (input.val() == '')
+                        inputPlaceHolder(this);
+                    else
+                        input.addClass('filled');
+                }
+        
+                function inputFocus() {
+                    var input = $(this);
+                    placeholder = input.data('placeholder');
+                    if (!input.hasClass('filled'))
+                        $(this).val('');
+                }
+                function inputInit() {
+                    var input = $(this);
+                    input.focus(inputFocus);
+                    input.blur(inputBlur);
+                    if (!input.val())
+                        inputPlaceHolder(input);
+                    else
+                        input.addClass('filled');
+                }
+                $('#search-form input').each(inputInit);
+            });
+        </script>
+
+                    <script type="text/javascript">
+
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-5542235-5']);
+                _gaq.push(['_trackPageview']);
+
+                (function() {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+
+            </script>
+            </head>
+    <body>
+        <div id="site">
+            <div id="header">
+                <div id="logo"><a href="/"></a></div>
+                <div id="top-menu">
+                    <ul>
+                        <li><a href="http://dealers.volkswagen.ru/">Дилеры</a><span class="i-separator">I</span></li>
+                        <li>
+                            <form id="search-form" action="/search">
+                                <fieldset>
+                                    <input name="query" type="text" data-placeholder="Детское сиденье" />
+                                    <button class="search-button" type="submit"></button>
+                                </fieldset>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>              
+            </div>
+            <div id="main">
+                <div id="line-1"></div>
+                <div id="line-2"></div>
+                <ul id="navigation">
+                                                <li class="first"><a class="active">404: Страница не найдена</a></li>
+   
+                                    </ul> 
+                <div class="clear"></div>
+                <div id="banner">
+                    <a href="#" class="next"><div class="icon"></div></a>
+                    <a href="#" class="prev"><div class="icon"></div></a>
+                    <div class="images">
+                        <!--<img src="/uploads/banners/"/>-->
+                        <object type="application/x-shockwave-flash" data="/uploads/banners/jetta_accessories2.swf" width="958px" height="335px" style="visibility: visible; "><param name="movie" value="/uploads/banners/jetta_accessories2.swf"></object>
+                    </div>
+                </div>
+                <div id="middle">
+                    <div id="menu">
+                        <ul>
+                <li >
+            <a href="/narujnoe-oborudovanie">Наружное оборудование</a>
+                    </li>
+            <li >
+            <a href="/interer-aksessuary">Интерьер</a>
+                    </li>
+            <li >
+            <a href="/kolesa-diski">Колеса / диски</a>
+                    </li>
+            <li >
+            <a href="/kommunikaciya-i-multimedia">Коммуникация и мультимедиа</a>
+                    </li>
+            <li >
+            <a href="/bezopasnost">Безопасность</a>
+                    </li>
+            <li >
+            <a href="/sanki-i-velosipedy">Санки и велосипеды</a>
+                    </li>
+            <li >
+            <a href="/komfort-i-zashchita">Комфорт и Защита</a>
+                    </li>
+            <li >
+            <a href="/odejda-aksessuary">Одежда и аксессуары</a>
+                    </li>
+            <li >
+            <a href="/modeli-avtomobiley">Модели автомобилей</a>
+                    </li>
+            <li >
+            <a href="/suveniry">Сувениры</a>
+                    </li>
+            <li >
+            <a href="/specpredlojeniya">Спецпредложения</a>
+                    </li>
+    </ul>                        <div id="catalog">
+                            <a href="/catalog">
+                                <img class="header" src="/images/catalog-header.png" />
+                                <img class="image" src="/images/catalog-image.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                    <div id="content">
+                                
+
+        
+<div id="content-padding">
+    <h1 class="original">К сожалению, запрашиваемая страница не найдена</h1>    
+</div>                    </div>
+                    <div class="clear"></div>
+                </div>              
+            </div>
+            <div id="footer">
+                <div class="float-left">© Volkswagen 2014<span class="i-separator">I</span><a target="_blank" href="http://www.vw.ru">Фольксваген Россия</a><span class="i-separator">I</span><a target="_blank" href="http://www.volkswagen.ru/ru/ru/metacontent/rights.metanav.html">Правовые аспекты</a></div>
+                <div class="float-right"><a target="_blank" href="http://www.volkswagen-ag.de">Volkswagen AG</a><span class="i-separator">I</span><a target="_blank" href="http://www.volkswagen.com/">Volkswagen international</a></div>
+                <div id="soc">
+                    <a href="http://www.facebook.com/VolkswagenServiceRussia" id="facebook" target="_blank">Сервис, который вам нравится!</a>
+                </div>
+                <div class="clear"></div>              
+            </div>
+        </div>
+        <script type="text/javascript"> Cufon.now(); </script>
+    </body>
+</html>

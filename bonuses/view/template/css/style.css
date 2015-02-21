@@ -1,0 +1,292 @@
+html{
+    height:100%;
+    margin:0;
+}
+body{
+    font-family:Georgia, Arial, Helvetica, sans-serif;
+    width:100%;
+    height:100%;
+}
+.this_block_is_hidden {
+	display: none;
+}
+.this_block_is_hidden2 {
+	background:#fff;
+	display: none;
+}
+.admin_menu {
+	width:159px;
+	height:20px;
+	background:#666;
+	position:absolute;
+	right:100px;
+	top:0;
+	
+}
+.admin_xml {
+	width:159px;
+	height:20px;
+	background:#666;
+	position:absolute;
+	right:260px;
+	top:0;
+}
+
+.admin_reg {
+	width:200px;
+	height:20px;
+	background:#666;
+	position:absolute;
+	right:420px;
+	top:0;
+}
+
+ /*#menu {
+    min-width: 1000px; 
+}
+
+
+
+
+
+ ul, li {
+	 list-style: none; 
+	 margin: 0; 
+	 padding: 0; 
+ }
+ #menu {
+	 height: 35px; 
+	 background: #454545; 
+	 font: bold 14px/25px Arial, sans-serif;
+ }
+ #menu li {
+	 float: left; 
+	 background: #454545; 
+	 position: relative; 
+ }
+ #menu ul li {
+ 	float: none; 
+ }
+ #menu a {
+	 display: block;
+	 color: #fff; 
+	 text-decoration: none;
+	 white-space: nowrap; 
+	 padding: 5px 10px; 
+	 border-bottom: 1px solid #DDDDDD;
+	 border-right: 1px solid #DDDDDD;
+ }
+ #menu ul a {
+	 min-width: 150px; 
+	 width: auto !important;
+	 width: 150px; 
+ }
+ #menu ul {
+	 position: absolute; 
+	 display: none;
+ }
+ #menu li:hover ul, #menu li.ie6 ul {
+ 	display: block;
+ }
+ #menu li:hover ul a, #menu li.ie6 ul a {
+	 color: #fff;
+	 background: #454545;
+ }
+ #menu li:hover a, #menu li ul a:hover, #menu li.ie6 a {
+ 	color: #454545;
+ 	background: #b8b8b8;
+ }*/
+div#content{
+    margin:auto 10px;
+    
+}
+tbody{
+    font-family:  FF Meta Serif, Arial, Helvetica, sans-serif;
+}
+tr.title td{
+    background: #eaeaea; 
+    text-align: center;
+}
+.title td{
+    font-weight:bolder;
+    font-size: 12.5px;
+}
+td{
+    padding: 5px 10px;
+}
+table a{
+    font-weight: bold;
+}
+.go_out:hover{
+    text-decoration: none;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+ text-align: center;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.button-bottom{
+    margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+div.toggle{
+    color: #337ab7;
+    text-align: center;
+}
+div.toggle_{
+    position:relative;
+    top: 9px;
+    left: 32px;    
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+    color: #337ab7;
+}
+div.toggle_:hover,
+div.toggle_:focus,
+div.toggle:hover,
+div.toggle:focus{
+  color: #23527c;
+  text-decoration: underline;
+    cursor: pointer;
+}
+div.wrapper{
+    width:100%;
+    height:100%;
+     background: url(http://www.fortress.com/HomeBackground/1.jpg) no-repeat; 
+    background-size: 100% auto;
+}
+.nav > li > a {
+    padding:10px 20px;
+    font-size: 16px;
+}
+
+/* 
+.bonusestable > tbody > tr > td:nth-child(2),
+.bonusestable > tbody > tr > td:nth-child(3),
+.bonusestable > tbody > tr > td:nth-child(4),
+.bonusestable > tbody > tr > td:nth-child(5),
+.bonusestable > tbody > tr > td:nth-child(7),
+.bonusestable > tbody > tr > td:nth-child(8),
+.bonusestable > tbody > tr > td:nth-child(10),
+.bonusestable > tbody > tr > td:nth-child(12),
+.bonusestable > tbody > tr > td:nth-child(14),
+.bonusestable > tbody > tr > td:nth-child(16),
+.bonusestable > tbody > tr > td:nth-child(19),
+.bonusestable > tbody > tr > td:nth-child(20)
+	{display:none;}
+.bonusestable tr td:nth-child(1) {width: 300; padding-left: 20px;}
+ */
+.bonuses{
+    display: inline-block;
+    background: url(../images/ind-bones-card.png) 3% 50% no-repeat;
+    background:  url(../images/ind-bones-card.png) 3% 50% no-repeat;
+    font-size: 18px;
+    padding: 7px 10px;
+    padding-left:43px; 
+    margin-left: 5%;
+    margin-right: 10%;
+    border-radius: 3px;
+}
+.bonuses b{
+    font-size: 25px;
+}
+.user_name{
+    display: inline-block;
+    margin-left: 8%;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.img{
+    margin-bottom: 10px;
+}
+footer{
+    margin:0;
+    width:100%;
+    margin-top: 0%;
+}
+.powered-by{
+    margin-top:8px;
+}
+.go_out{
+}
+.text-size{
+    font-size: 20px;
+}
+.detail{
+    cursor: pointer;
+}
+.mmenu-div {
+    box-shadow: 0px 2px 2px #dbdbdb;
+    background: #ffffff;
+    border-radius: 4px;
+    display: block;
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+.mmenu {
+    width: 100%;
+    background: url("../images/mmenu-bg.png") 0px 0px repeat-x;
+    border-spacing: 2px;
+    border-collapse: collapse;
+    display: table;
+    border-color: gray;
+}
+.mmenu tr{
+    display: table-row;
+    }
+.mmenu td{
+    padding: 0px;
+        vertical-align: middle;
+}
+.mmenu a {
+    display: block;
+    color: #e2e2e2;
+    text-align: center;
+    border-collapse: separate;
+    text-shadow: #000000 0px -1px 1px;
+    text-decoration: none;
+    background: url("../images/mmenu-bg.png") 0px 0px no-repeat;
+    padding: 1px 0px 1px 0px;
+    font-size:14px;
+    font-weight: normal;
+    line-height: 38px;
+}
+.mmenu td a:hover{
+    color: #ffffff;
+}
+.mmenu td.active a { 
+    background-position:0px -42px;
+    color: #ffffff;
+}

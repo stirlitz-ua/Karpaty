@@ -1,0 +1,11 @@
+
+RewriteEngine On
+
+RewriteRule ^([^/]*)/$ /?page=$1 [L]
+RewriteRule ^([^/]*)/([^/]*)/$ /?page=$1&model=$2 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/$ /?page=$1&model=$2&link=$3 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)/$ /?page=$1&model=$2&link=$3&p_link=$4 [L]
+AddDefaultCharset utf-8
+
+#php_value display_errors 7
+#php_value error_reporting 2047

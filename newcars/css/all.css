@@ -1,0 +1,1115 @@
+body {
+	margin:0;
+	color:#000;
+    font-size: 11px;
+    font: Arial, Helvetica, sans-serif;
+ }
+img {border-style:none;}
+a {
+	text-decoration:none;
+	color:#2173ab;
+}
+a:hover {text-decoration:underline;}
+input, textarea, select {
+	font:11px Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	color:#000;
+}
+form fieldset {
+	margin:0;
+	padding:0;
+	border:none;
+}
+*:focus {outline: none;}
+/* wrapper */
+#wrapper {
+	width:962px;
+	margin:0 auto;
+	overflow:hidden;
+}
+/* header */
+#header {
+	width:940px;
+	height:84px;
+	padding:24px 0 0 22px;
+}
+.logo {
+	height:61px;
+	width:46px;
+	float:left;
+	overflow:hidden;
+	text-indent:-9999px;
+	cursor:pointer;
+	background:url(/dasweltauto/img/bg-logo.gif) no-repeat;
+	margin:0 43px 0 0;
+}
+.logo a {
+	height:100%;
+	display:block;
+}
+.nav {
+	margin:50px 0 0;
+	padding:0;
+	list-style:none;
+	float:left;
+	overflow:hidden;
+}
+.nav li {
+	float:left;
+	background:url(/dasweltauto/img/sep-grey.gif) no-repeat 0 3px;
+	margin:0 1px 0 -1px;
+	padding:0 11px;
+}
+.nav a {
+	font:11px 'aFuturaOrtoRegular', Arial, Helvetica, sans-serif;
+	color:#000;
+	text-decoration:none;
+}
+.nav a:hover {text-decoration:underline;}
+.nav .active a {color:#2173ab;}
+/* main */
+#main {
+	width:920px;
+	background:url(/dasweltauto/img/bg-main.gif) repeat-x;
+	padding:0 20px 50px;
+	border:1px solid #cfd7d9;
+	border-top:none;
+	float:left;
+	overflow:hidden;
+}
+#main.inframe { background:none; border:none; }
+#main.inframe .breadcrumbs, #main.inframe .print { display:none; }
+.breadcrumbs {
+	border-bottom:1px solid #cfd7d9;
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:33px;
+	overflow:hidden;
+}
+.breadcrumbs li {
+	float:left;
+	background:url(/dasweltauto/img/sep-grey.gif) no-repeat 100% 3px;
+	margin:11px 0 0;
+	padding:0 14px 0 0;
+}
+.breadcrumbs .active {
+	padding:0 14px 0 12px;
+	background:none;
+}
+.breadcrumbs li a {
+	font:bold 12px 'aFuturaOrtoRegular', Arial, Helvetica, sans-serif;
+	color:#000;
+}
+.breadcrumbs .active a {
+	padding:0 0 0 7px;
+	background:url(/dasweltauto/img/bullet-triangle-blue.gif) no-repeat 0 3px;
+	font-size:11px;
+	color:#2173ab;
+}
+.breadcrumbs li a:hover {text-decoration:underline;}
+#main h2 {
+	margin:15px 0 0;
+	font:bold 20px 'aFuturaOrtoRegular', Arial, Helvetica, sans-serif;
+	color:#000;
+}
+#tabs-3 .search {
+	position:absolute;
+	top:-30px;
+	right:0;
+}
+#tabs-4 .search {
+	position:absolute;
+	top:-30px;
+	right:0;
+}
+.search {
+	margin:15px 0 0;
+	padding:0;
+	list-style:none;
+	float:right;
+}
+.search li {
+	float:left;
+	padding:0 0 0 7px;
+	background:url(/dasweltauto/img/bullet-triangle-orange.gif) no-repeat 18px 7px;
+}
+.search li:hover { background-image:url(/dasweltauto/img/bullet-triangle-blue.gif); }
+.search a {
+	float:left;
+	padding:0 0 0 8px;
+	font-weight:bold;
+	background:url(/dasweltauto/img/bg-searches-li.gif) no-repeat;
+}
+.search a span {
+	float:left;
+	background:url(/dasweltauto/img/bg-searches-li.gif) no-repeat 100% -26px;
+	height:22px;
+	padding:3px 13px 0 11px;
+	cursor:pointer;
+}
+.search a span:hover {text-decoration:underline;}
+.search a:hover {text-decoration:underline;}
+.search .active a {
+	background:none;
+	font-weight:normal;
+}
+.search .active a span {background:none;}
+.entry {
+	width:100%;
+	float:left;
+	margin:22px 0 0;
+}
+.entry .heading {
+	position:relative;
+	border-bottom:1px solid #cfd7d9;
+	width:100%;
+	padding:0 0 4px;
+}
+.entry .heading h4 {
+	text-align:center;
+	margin:0;
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color:#2173ab;
+}
+.entry .heading .next-auto {
+	position:absolute;
+	right:0;
+	top:0;
+	clear:both;
+	padding:0 0 0 8px;
+	background:url(/dasweltauto/img/bullet-triangle-orange.gif) no-repeat right 3px;
+}
+.entry .heading .prev-auto {
+	position:absolute;
+	left:0;
+	top:0;
+	clear:both;
+	padding:0 0 0 8px;
+	background:url(/dasweltauto/img/bullet-triangle-orange-left.gif) no-repeat 0 3px;
+}
+.entry .heading .next-auto:hover { background-image:url(/dasweltauto/img/bullet-triangle-blue.gif); }
+.entry .heading .prev-auto:hover { background-image:url(/dasweltauto/img/bullet-triangle-blue-left.gif); }
+.entry .holder {
+	width:100%;
+	margin:17px 0 0;
+	overflow:hidden;
+}
+.entry .col-1 {
+	float:left;
+	width:220px;
+}
+.entry .col-1 dl {
+	margin:0;
+	width:100%;
+	float:left;
+}
+.entry .col-1 dt {
+	float:left;
+	width:110px;
+	font-weight:bold;
+}
+.entry .col-1 dd {margin:0 0 5px; float: left; width: 110px;}
+.entry .status {
+	margin:25px 0 0;
+	float:left;
+}
+.entry .col-2 {float:left;}
+.entry .gallery {
+	margin:5px 0 0;
+	padding:0;
+	list-style:none;
+	float:left;
+}
+.entry .gallery li {
+	float:left;
+	margin:0 6px 0 0;
+	background:#cdd7db;
+	padding:4px;
+}
+.entry .gallery a {float:left;}
+.entry .col-3 {
+	float:right;
+	width:251px;
+}
+.entry .col-3 .box {
+	background:#eaeeed;
+	border:1px solid #c6c6c6;
+	width:231px;
+	padding:10px 0 10px 18px;
+	margin:0 0 19px;
+	overflow:hidden;
+}
+.entry .col-3 h4 {
+	font-weight:bold;
+	margin:10px 0 0;
+	float:left;
+	width:100%;
+}
+.entry .col-3 p {
+	margin:5px 0 0;
+	float:left;
+}
+.entry .col-3 dl {
+	margin:5px 0 0;
+	width:100%;
+	float:left;
+}
+.entry .col-3 dt {
+	float:left;
+	padding:0 5px 0 0;
+}
+.entry .col-3 dd {margin:0 0 5px;}
+.actions {
+	margin:15px 0 0;
+	padding:0;
+	list-style:none;
+	float:left;
+}
+.actions li {
+	padding:0 0 4px 8px;
+	background:url(/dasweltauto/img/bullet-triangle-orange-2.gif) no-repeat 0 4px;
+}
+.actions li:hover {	background-image:url(/dasweltauto/img/bullet-triangle-blue.gif); }
+.entry .more {
+	margin:10px 0 0;
+	padding:0;
+	list-style:none;
+	float:left;
+}
+.entry .more li {
+	background:url(/dasweltauto/img/ico-01.gif) no-repeat;
+	height:18px;
+	padding:2px 0 3px 26px;
+}
+.entry .more li:hover { background-image:url(/dasweltauto/img/ico-01h.gif); }
+.entry .more li.pdf {	background:url(/dasweltauto/img/ico-02.gif) no-repeat; }
+.entry .more li.pdf:hover {background-image:url(/dasweltauto/img/ico-02h.gif);}
+#tabs .container {
+	background:url(/dasweltauto/img/bg-tabs.gif) repeat-x 0 100%;
+	width:100%;
+	float:left;
+	margin:29px 0 0;
+	padding:0 0 1px;
+}
+.home #tabs-1 .holder {
+	border-bottom:1px solid #cfd7d9;
+	padding:0 0 40px;
+}
+#tabs .info {
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:27px;
+	float:left;
+}
+#tabs .info li {
+	float:left;
+	margin:0 -1px 0 0;
+}
+#tabs .info li a {
+	float:left;
+	background:#eaeeed url(/dasweltauto/img/bg-tabs-li.gif) no-repeat;
+	color:#000;
+}
+#tabs .info a span {
+	padding:7px 10px 0 9px;
+	float:left;
+	height:20px;
+	background:url(/dasweltauto/img/bg-tabs-li.gif) no-repeat 100% -28px;
+	cursor:pointer;
+}
+#tabs a span:hover {text-decoration:underline;}
+#tabs .ui-tabs-hide {display:none !important;}
+#tabs .ui-tabs-panel {
+	float:left;
+	width:100%;
+}
+#tabs .ui-state-active {border:none;}
+#tabs .ui-state-active a {
+	float:left;
+	background:url(/dasweltauto/img/bg-tabs-li-active.gif) no-repeat !important;
+	color:#2173ab !important;
+	height:28px;
+	margin:0 0 -1px;
+	position:relative;
+}
+#tabs .ui-state-active a span {background:url(/dasweltauto/img/bg-tabs-li-active.gif) no-repeat 100% -29px;}
+#tabs .ui-tabs-panel h4 {
+	margin:18px 0 0;
+	font:bold 12px Arial, Helvetica, sans-serif;
+}
+#tabs .ui-tabs-panel .list {
+	margin:11px 0 0;
+	padding:0 0 0 15px;
+	list-style:none;
+}
+#tabs .ui-tabs-panel .list li {
+	padding:0 0 1px 10px;
+	background:url(/dasweltauto/img/bullet-circle.gif) no-repeat 0 4px;
+}
+.print {
+	float:right;
+	margin:10px 0 0;
+	overflow:hidden;
+	text-indent:-9999px;
+	height:20px;
+	width:20px;
+	background:url(/dasweltauto/img/ico-03.gif) no-repeat;
+}
+.print:hover { background-image:url(/dasweltauto/img/ico-03h.gif); }
+/* footer */
+#footer {
+	width:100%;
+	float:left;
+	padding:4px 0 0;
+	height:36px;
+}
+#footer p {
+	margin:0;
+	color:#8994a0;
+	float:right;
+}
+/* favourite */
+#tabs .search {
+	margin:0 0 0;
+	position:relative;
+}
+.favourite {
+	width:100%;
+	float:left;
+	margin:17px 0 0;
+	padding:0 0 40px;
+	border-bottom:1px solid #cfd7d9;
+}
+.favourite .row {
+	height:20px;
+	background:#eaeeed;
+	position:relative;
+	padding:5px 0 0;
+}
+.favourite p {
+	margin:0;
+	text-align:center;
+}
+.favourite .section {
+	position:absolute;
+	right:10px;
+	top:3px;
+	width:176px;
+}
+.favourite .section label {
+	float:left;
+	margin:2px 0 0 ;
+}
+.favourite .section select {
+	float:right;
+	width:52px;
+	height:20px;
+}
+.favourite .number {
+	text-align:center;
+	margin:21px 0 0;
+	font-weight:bold;
+	color:#2173ab;
+	display:block;
+}
+.favourite table {
+	width:100%;
+	border-collapse:collapse;
+	border:none;
+	margin:14px 0 0;
+    font-size: 11px;
+}
+.favourite th {
+	border-top:1px solid #cfd7d9;
+	border-bottom:1px solid #cfd7d9;
+	vertical-align:top;
+	padding:24px 0 7px;
+	text-align:left;
+}
+.favourite th span {
+	padding:0 12px 0 0;
+	background:url(/dasweltauto/img/bullet-triangle-grey.gif) no-repeat 100% 6px;
+	cursor:pointer;
+}
+.favourite th span.sortasc { background-image:url(/dasweltauto/img/bullet-triangle-grey-asc.gif); }
+.favourite th span.sortdsc { background-image:url(/dasweltauto/img/bullet-triangle-grey-dsc.gif); }
+.favourite table .cell-1 {width:324px;}
+.favourite table .cell-2 {width:151px;}
+.favourite table .cell-3 {width:197px;}
+.favourite table .cell-4 {width:116px;}
+.favourite table .cell-5 {width:132px;}
+.favourite table tbody tr.hover td {background:#eaeeed;}
+.favourite table tbody tr.hover .status-gar {background:url(/dasweltauto/img/icon_gwg.gif) no-repeat;}
+.favourite table tbody tr.hover .status-alt1 {background:url(/dasweltauto/img/bg-status1-small-grey.gif) no-repeat;}
+.favourite table tbody tr.hover .status-alt2 {background:url(/dasweltauto/img/bg-status2-small-grey.gif) no-repeat;}
+.favourite table tbody td {
+	padding:10px 0 7px;
+	vertical-align:top;
+	border-bottom:1px solid #cfd7d9;
+}
+.favourite table tbody td p {
+	margin:0;
+	text-align:left;
+}
+.favourite table .cell-1 img {
+	float:left;
+	margin:0 15px 0 0;
+}
+.favourite table .cell-1 p {margin:2px 0 0;}
+.favourite table .cell-1 .status-gar {
+	margin:3px 3px 0;
+	width:15px;
+	height:15px;
+	background:url(/dasweltauto/img/icon_gwg.gif) no-repeat;
+	float:left;
+}
+.favourite table .cell-1 .status-alt1 {
+	margin:3px 0 0;
+	width:60px;
+	height:13px;
+	background:url(/dasweltauto/img/bg-status1-small.gif) no-repeat;
+	float:left;
+}
+.favourite table .cell-1 .status-alt2 {
+	margin:3px 0 0;
+	width:60px;
+	height:13px;
+	background:url(/dasweltauto/img/bg-status2-small.gif) no-repeat;
+	float:left;
+}
+.drop-down {
+	position:absolute;
+    font: 11px Arial, Helvetica, sans-serif;
+}
+.drop-down .bg {
+	width:387px;
+	height:38px;
+	background:url(/dasweltauto/img/bg-drop-down.png) no-repeat;
+	padding:20px 0 0 26px;
+}
+.drop-list {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	position:relative;
+}
+.drop-list li {
+	float:left;
+	padding:0 0 0 7px;
+	background:url(/dasweltauto/img/bullet-triangle-orange-2.gif) no-repeat 18px 7px;
+}
+.drop-list li:hover { background-image:url(/dasweltauto/img/bullet-triangle-blue.gif); }
+.drop-list a {
+	float:left;
+	padding:0 0 0 8px;
+}
+.drop-list a span {
+	float:left;
+	height:22px;
+	padding:3px 13px 0 11px;
+	cursor:pointer;
+}
+.drop-list .active a {background:url(/dasweltauto/img/bg-drop-list-li.gif) no-repeat;}
+.drop-list .active a span {background:url(/dasweltauto/img/bg-drop-list-li.gif) no-repeat 100% -26px;}
+/* compare */
+.compare {
+	width:100%;
+	float:left;
+	padding:10px 0 0;
+	overflow:hidden;
+}
+.compare .col {
+	float:left;
+	padding:0 0 0 20px;
+	width:215px;
+}
+.compare .alt {padding:0 0 0 235px;}
+.compare .model {
+	background:#eaeeed;
+	width:215px;
+	height:265px;
+}
+.compare .model .img-frame {position:relative;}
+.model .img-frame .remove {
+	position:absolute;
+	right:4px;
+	top:3px;
+	height:18px;
+	width:18px;
+	display:block;
+	cursor:pointer;
+	background:url(/dasweltauto/img/ico-remove.png) no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+.model .img-frame .remove:hover { background-image:url(/dasweltauto/img/ico-removeh.png) }
+.compare .model .wrap {
+	padding:9px 0 0 10px;
+	float:left;
+}
+.compare .col-1 {	float:left;	width:202px;padding:0 0 0 13px; }
+.compare .model p {margin:4px 0 0;}
+.compare .model .actions {margin:9px 0 0;}
+.compare .holder {
+	margin:45px -20px 0 0 ;
+	border-top:1px solid #ff871f;
+	border-bottom:1px solid #ff871f;
+	width:940px;
+	float:left;
+}
+.compare .holder .col-1 {
+	float:left;
+	width:222px;
+	padding:0 0 0 13px;
+}
+.compare .holder .row {
+	width:940px;
+	margin:0 0 0;
+	height:27px;
+	float:left;
+	overflow:hidden;
+}
+.compare .holder p {
+	line-height:27px;
+	margin:0;	
+	height:27px;
+	overflow:hidden;
+}
+.compare .holder .col-2 {
+	width:215px;
+	height:27px;
+	text-align:center;
+	margin:0 20px 0 0;
+	background:#eaeeed;
+	border-bottom:1px solid #cfd7d9;
+	float:left;
+}
+.compare .holder .col-3 {
+	width:205px;
+	padding:9px 0 35px 10px;
+	margin:0 20px 0 0;
+	float:left;
+}
+.compare .holder .col-3 p {
+	line-height:14px;
+	width:170px;
+}
+.compare .holder .drop {display:none;}
+.compare .holder .active {background:#cfd7d9 url(/dasweltauto/img/bullet-arrow-open.gif) no-repeat 9px 12px;}
+.compare .holder .col-2 img {margin:7px 0 0;}
+.compare .accordion {
+	margin:-2px 0 0;
+	padding:0;
+	list-style:none;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+.compare .accordion li {
+	float:left;
+	width:100%;
+	margin:1px 0 0;
+}
+.compare .accordion .opener {
+	float:left;
+	margin:0;
+	padding:0 0 0 30px;
+	height:27px;
+	width:8900px;
+	font:11px/27px Arial, Helvetica, sans-serif;
+	background:#CFD7D9 url(/dasweltauto/img/bullet-arrow.gif) no-repeat 11px 10px;
+	color:#000;
+}
+.compare .accordion .active {background:#CFD7D9 url(/dasweltauto/img/bullet-arrow-open.gif) no-repeat 9px 12px;}
+.compare .accordion .opener:hover {text-decoration:none;}
+/* full-search */
+#tabs .pos {
+	position:relative;
+	width:100%;
+}
+.search-alt {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:right;
+	position:absolute;
+	right:0;
+	top:27px;
+}
+#tabs-2 .aside-2 .search-alt {
+	position:static;
+	margin:19px 0 0;
+}
+.search-alt li {
+	float:left;
+	padding:0 0 0 7px;
+	background:url(/dasweltauto/img/bullet-triangle-orange.gif) no-repeat 18px 7px;
+}
+.search-alt a {
+	float:left;
+	padding:0 0 0 8px;
+	font-weight:bold;
+	background:url(/dasweltauto/img/bg-searches-li.gif) no-repeat;
+}
+.search-alt a span {
+	float:left;
+	background:url(/dasweltauto/img/bg-searches-li.gif) no-repeat 100% -26px;
+	height:22px;
+	padding:3px 13px 0 11px;
+	cursor:pointer;
+}
+.search-alt a span:hover {text-decoration:underline;}
+.search-alt a:hover {text-decoration:underline;}
+.search-alt .active a {
+	background:url(/dasweltauto/img/bg-seacrh-alt-active.gif) no-repeat;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+.search-alt .active a span {background:url(/dasweltauto/img/bg-seacrh-alt-active.gif) no-repeat 100% -26px; width:160px; padding:3px 10px 0 0;}
+.search-alt .active-2 a {
+	background:url(/dasweltauto/img/bg-search-alt-active2.gif) no-repeat;
+	color:#fff;
+	font-weight:bold;
+}
+.search-alt .active-2 a span {background:url(/dasweltauto/img/bg-search-alt-active2.gif) no-repeat 100% -26px;}
+.aside-1 {
+	float:left;
+	width:251px;
+	overflow:hidden;
+	margin:17px 0 0;
+}
+.aside-1 .box {
+	background:#eaeeed;
+	border:1px solid #c6c6c6;
+	width:230px;
+	padding:10px 0 30px 19px;
+	margin:0 0 19px;
+	overflow:hidden;
+}
+#tabs .aside-1 .box h4 {
+	margin:10px 0 0;
+	float:left;
+	width:100%;
+}
+.aside-1 .model-list {
+	margin:0;
+	padding:0 0 0 14px;
+	list-style:none;
+	float:left;
+	width:220px;
+}
+.aside-1 .model-list li {
+	background:url(/dasweltauto/img/bullet-circle-2.gif) no-repeat 0 10px;
+	padding:5px 0 0 7px;
+}
+.aside-1 .box p {
+	margin:5px 0 0;
+	float:left;
+	width:100%;
+}
+.aside-1 .specify {
+	padding:0 0 0 8px;
+	margin:15px 0 0;
+	background:url(/dasweltauto/img/bullet-triangle-orange-2.gif) no-repeat 0 4px;
+	float:left;
+}
+.aside-1 .specify:hover {text-decoration:underline;}
+.aside-2 {
+	float:right;
+	width:650px;
+}
+.full-search {
+	margin:17px 0 0;
+	padding:18px 0 0;
+	width:100%;
+	float:left;
+	background:#eaeeed;
+}
+.full-search .wrap {
+	width:100%;
+	float:left;
+	padding:0 0 14px;
+	margin:0 0 14px;
+	border-bottom: 1px solid #cdd7db;
+}
+.full-search .row {
+	float:left;
+	width:100%;
+	height:19px;
+	padding: 0 0 5px;
+}
+.full-search label {
+	float:left;
+	width:119px;
+	padding:3px 0 0 20px;
+}
+.full-search .col,
+.full-search .row .col {
+	width:320px;
+	float:left;
+}
+.full-search select {
+	float:left;
+	width:140px;
+	height:19px;
+	font:11px Arial, Helvetica, sans-serif;
+	color:#000;
+}
+.full-search .small {
+	width:66px;
+	margin:0 2px 0 0;
+}
+.full-search .row span {
+	float:left;
+	margin:0 2px 0 0;
+}
+.full-search .accordion {
+	margin:14px 0 0;
+	padding:0;
+	list-style:none;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+.full-search .accordion li {
+	float:left;
+	width:645px;
+	margin:1px 0 0;
+}
+.full-search .accordion .opener {
+	float:left;
+	margin:0;
+	padding:0 0 0 30px;
+	height:28px;
+	width:620px;
+	font:11px/27px Arial, Helvetica, sans-serif;
+	background:#CFD7D9 url(/dasweltauto/img/bullet-arrow.gif) no-repeat 11px 10px;
+	color:#000;
+}
+.full-search .accordion .active {background: #CFD7D9 url(/dasweltauto/img/bullet-arrow-open.gif) no-repeat 9px 12px;}
+.full-search .accordion .opener:hover {text-decoration:none;}
+.full-search .accordion .drop {
+	padding:14px 0 22px 5px;
+	display:none;
+	float:left;
+}
+.full-search .accordion .row {
+	height:12px;
+	padding:6px 0 0;
+	overflow:hidden;
+}
+.full-search .accordion .check {
+	float:left;
+	width:12px;
+	height:12px;
+	margin:0 0 0 20px;
+}
+.full-search .accordion label {
+	float:left;
+	padding:0 0 6px 8px;
+	width:170px;
+}
+/* search */
+a.blik{background: url(/dasweltauto/img/bg-seacrh-alt-active.gif) no-repeat !important;}
+
+.aside-1 .parameters {
+	background-color:#eaeeed;
+	width:100%;
+	padding:13px 0 50px 0;
+	float:left;
+}
+.aside-1 .parameters .total {
+	background:url(/dasweltauto/img/bg-total.gif) no-repeat;
+	width:233px;
+	height:21px;
+	padding:4px 0 0;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+.aside-1 .parameters .categories {
+	margin:10px 0 0;
+	padding:0;
+	list-style:none;
+}
+.aside-1 .parameters .categories li {
+	margin:1px 0 0;
+	float:left;
+}
+.aside-1 .parameters .categories li .opener {
+	background:#cfd7d9 url(/dasweltauto/img/bullet-arrow.gif) no-repeat 11px 10px;
+	font:11px/28px Arial, Helvetica, sans-serif;
+	float:left;
+	width:221px;
+	color:#000;
+	padding:0 0 0 30px;
+	margin:0;
+}
+.aside-1 .categories li .drop {
+	padding:15px 10px 5px 10px;
+	overflow:hidden;
+	/*display:none;*/
+	float:left;
+	width:231px;
+}
+.aside-1 .categories li form {
+	width:100%;
+	overflow:hidden;
+}
+.aside-1 .categories li form .row {
+	width:100%;
+	overflow:hidden;
+}
+.aside-1 .categories li form .row label {
+	float:left;
+	line-height:21px;
+	padding:0 9px 0 0;
+}
+.aside-1 .categories li form .row .checkbox {
+	float:left;
+	width:11px;
+	height:11px;
+	margin:5px 6px 0 0;
+}
+.aside-1 .categories li form .row img {
+	margin:7px 6px 0 0;
+	float:left;
+}
+.aside-1 .categories li form .row .info {
+	background:url(/dasweltauto/img/ico-info.gif) no-repeat;
+	width:21px;
+	height:21px;
+	float:right;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+.aside-1 .categories li form .wrap {
+	width:100%;
+	overflow:hidden;
+	padding:0 0 15px 0;
+	border-bottom:1px solid #cfd7d9;
+	margin:10px 0 0;
+}
+.aside-1 .categories li form .last {border:none;}
+.aside-1 .categories li form .wrap p {
+	width:100%;
+	margin:0;
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color:#000;
+}
+.aside-1 .categories li form .wrap em {
+	color:#000;
+	font:normal 11px Arial, Helvetica, sans-serif;
+}
+.aside-1 .categories li form .wrap .data-1 {float:left;margin:7px 0 0;width:39px;}
+.aside-1 .categories li form .wrap .data-2 {float:right;margin:7px 0 0;}
+.aside-1 .categories li form .sl {
+	overflow:hidden;
+	height:17px;
+	width:145px;
+	float:left;
+	margin:11px 0 0;
+}
+/*
+.aside-1 .categories li form .ui-slider {
+	width:136px;
+	height:8px;
+	background-color:#cfd7d9;
+	position:relative;
+	margin:0 0 0 5px;
+}
+.aside-1 .categories li form .ui-slider .ui-slider-range {
+	background-color:#ff871f;
+	height:8px;
+	background-position: 0 0;
+	border:none;
+	display:block;
+	position:absolute;
+	z-index:1;
+	overflow:hidden;
+}
+.aside-1 .categories li form .ui-slider .ui-slider-handle {
+	background:url(../images/slider-handle.png) no-repeat;
+	width:10px;
+	height:17px;
+	display:block;
+	position:absolute;
+	top:0;
+	margin:0 0 0 -5px;
+	z-index:2;
+	cursor:pointer;
+}
+*/
+.aside-1 .categories li form .wrap .text {
+	border:none;
+	background:none;
+}
+.pages {
+	width:100%;
+	overflow:hidden;
+	margin:20px 0 0;
+	text-align:center;
+}
+.pages ul {
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+}
+.pages ul li {float:left;margin:0 6px 0 0;}
+.pages ul li a {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#5996c0;
+	text-decoration:underline;
+}
+.pages ul li a:hover {text-decoration:none;font-weight:bold;}
+.pages ul .active a {text-decoration:none;font-weight:bold;}
+.pages ul .prev {
+	background:url(/dasweltauto/img/bullet-triangle-orange-left.gif) no-repeat 0 50%;
+	padding:0 0 0 8px;
+	text-decoration:none;
+}
+.pages ul .prev:hover {text-decoration:underline; font-weight:normal;}
+.pages ul .next {
+	background:url(/dasweltauto/img/bullet-triangle-orange.gif) no-repeat 100% 50%;
+	padding:0 8px 0 0;
+	text-decoration:none;
+}
+.pages ul .next:hover {text-decoration:underline; font-weight:normal;}
+.aside-2 .favourite {padding:0 0 20px 0;}
+.aside-2 .favourite p {
+	float:left;
+	padding:0 0 0 13px;
+}
+.aside-2 .favourite table .cell-1 {width:315px;}
+.aside-2 .favourite table .cell-2 {
+	width:85px;
+	text-align:left;
+}
+.aside-2 .favourite table .cell-3 {
+	width:97px;
+	text-align:center;
+}
+.aside-2 .favourite table .cell-3 p {text-align:center;}
+.aside-2 .favourite table .cell-4 {width:80px;}
+.aside-2 .favourite table .cell-5 {width:72px;}
+.aside-2 .favourite table p {
+	float:none;
+	padding:0;
+}
+
+
+/* ---  --- */
+.cleatfix { clear:both; }
+
+
+/*------------ slider-box --------------------------------------------------------*/
+.slider-box { position:relative; padding:0 0 0 0; }
+.slider-box .title { font-weight:bold; margin:0 0 7px 0; }
+.slider-box .slider-range { position:relative; width:78%; height:9px; margin:0px auto; background:#cfd7d9; z-index:0; }
+.slider-box .slider-range .ui-slider-handle { width:10px; height:17px; background:url(/dasweltauto/img/slider-handle.png); border:none; }
+.slider-box .slider-range .ui-slider-range { position: absolute; z-index: 1; height:9px; background-color:#ff871f; }
+.slider-box .slider-range .ui-slider-handle { position: absolute; top:-3px; width:10px; height:17px; margin-left:-5px; background:url(/dasweltauto/img/slider-handle.png); border:none; z-index:3; }
+.slider-box .value-left { margin-top:-11px; float:left; font-size:11px; }
+.slider-box .value-right { margin-top:-11px; float:right; font-size:11px; }
+
+.full-search .slider-range { width: 200px; }
+.full-search .select-box { height:30px; }
+
+.categories .slider-range { width: 120px; }
+
+
+.modelsheader { padding:10px 0; }
+.modelsheader .title { margin-top:10px; }
+.modelsheader .slider-box { width: 770px; float:left; }
+.modelsheader .slider-range { width: 650px; }
+.modelsheader .quality-mark { float:right; margin-top:5px; }
+.quality-mark { line-height:14px; }
+.quality-mark label { width:80px !important; }
+.quality-mark img { position:relative; top:7px; }
+.quality-mark .ico-info  
+{
+  background:url(/dasweltauto/img/ico-info.gif) no-repeat; 
+  display:inline-block;
+  position:relative; 
+  top:8px;
+	width:21px;
+	height:21px;    
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+.aside-1 .categories li label { display:inline-block; width:200px; }
+
+
+
+#progress { display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:1999; }
+#progress .popup-bg { position:fixed; top:0; left:0; width:100%; height:100%; background:url(/dasweltauto/img/popup-bg.png); cursor:pointer; z-index:2000; }
+#progress .popup-content { position:absolute; top:10%; left:50%; z-index:2001; margin:-10px 0 0 -85px; }
+
+.todealer .leftfields
+{
+  width:210px;
+}
+
+.todealer .leftfields input[type="text"] {
+  width:190px;
+}
+
+.editor-label { padding:2px 0; }
+.editor-field { padding:5px 0; }
+
+.field-validation-error {
+  color:#f00;
+}
+
+input, select, textarea {
+  background-color: #FFFFFF;
+  border: 1px solid #CFD7D9;
+  padding: 2px;  
+}
+
+
+.hidden { display:none; }
+
+.hide { display:none }
+.shide { display:none !important; }
+
+.slider-box.colors select{
+    background: #eeeeee;
+   width: 200px;
+   padding: 3px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    outline: none;
+padding: 3px;
+margin: 2px;
+font-size: 14px;
+font-weight: bolder;
+color: #444;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid #8D8D8D;
+}
+.slider-box.colors select option{
+     border:0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    
+}
+.entry .col-1 dd p{padding: 2px; margin: 0;}
+.oldprice{text-decoration: line-through; }
+.newprice{color: red; font-size: 13px;font-weight: bold;}
+
+

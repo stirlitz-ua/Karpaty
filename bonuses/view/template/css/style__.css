@@ -1,0 +1,90 @@
+
+.this_block_is_hidden {
+
+	display: none;
+}
+.this_block_is_hidden2 {
+background:#fff;
+	display: none;
+}
+.admin_menu {
+width:159px;
+height:20px;
+background:#666;
+position:absolute;
+right:100px;
+top:0;
+}
+.admin_xml {
+width:159px;
+height:20px;
+background:#666;
+position:absolute;
+right:400px;
+top:0;
+}
+
+ #menu {
+    min-width: 1000px; /* Минимальная ширина контейнера */
+
+   }
+
+
+
+
+
+ul, li {
+ list-style: none; /* убираем маркеры списков */
+ margin: 0; /* обнуляем внешние поля */
+ padding: 0; /* обнуляем внутренние отступы */
+ }
+ #menu {
+ height: 35px; /* высота основного меню */
+ background: #454545; /* фон */
+ font: bold 14px/25px Arial, sans-serif; /* стили шрифта */
+ }
+ #menu li {
+ float: left; /* элементы списков всплывают влево */
+ background: #454545; /* фон пунктов */
+ position: relative; /* относительное позиционирование */
+ }
+ #menu ul li {
+ float: none; /* отменяем всплытие для внутренних элементов списков */
+ }
+ #menu a {
+ display: block; /* делаем ссылки блоками */
+ color: #fff; /* цвет текста ссылок */
+ text-decoration: none; /* убираем подчеркивание */
+ white-space: nowrap; /* запрещаем перевод строк */
+ padding: 5px 10px; /* внутренние отступы */
+ border-bottom: 1px solid #DDDDDD; /* Параметры границы */
+ border-right: 1px solid #DDDDDD; /* Параметры границы */
+ }
+ #menu ul a {
+ min-width: 150px; /* минимальная ширина подпунктов */
+ width: auto !important; /* для поддержки IE6 */
+ width: 150px; /* для IE6 */
+ }
+ #menu ul {
+ position: absolute; /* абсолютное позиционирование внутренних списков */
+ display: none; /* скрываем внутренние списки */
+ }
+ #menu li:hover ul, #menu li.ie6 ul {
+ display: block; /* делаем внутренние списки блочными при наведении мыши на внешние элементы LI */
+ }
+ #menu li:hover ul a, #menu li.ie6 ul a {
+ color: #fff; /* цвет текста внутренних ссылок */
+ background: #454545; /* цвет фона */
+ }
+ #menu li:hover a, #menu li ul a:hover, #menu li.ie6 a {
+ color: #454545; /* цвет текста внешних ссылок при наведении курсора на LI,
+ а также внутренних ссылок при наведении курсора на них самих */
+ background: #b8b8b8; /* фон */
+ }
+
+
+
+ 
+
+
+

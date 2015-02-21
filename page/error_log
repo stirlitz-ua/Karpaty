@@ -1,0 +1,71 @@
+[22-Apr-2014 23:58:06 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/karpatya/public_html/page/register_user.php on line 24
+[22-Apr-2014 23:58:06 Europe/Helsinki] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/karpatya/public_html/page/register_user.php on line 25
+[22-Apr-2014 23:58:06 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/karpatya/public_html/page/register_user.php on line 26
+[22-Apr-2014 23:58:06 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/karpatya/public_html/page/register_user.php on line 26
+[22-Apr-2014 23:58:06 Europe/Helsinki] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/karpatya/public_html/page/register_user.php on line 28
+[22-Apr-2014 23:58:06 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/karpatya/public_html/page/register_user.php on line 30
+[22-Apr-2014 23:58:06 Europe/Helsinki] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/karpatya/public_html/page/register_user.php on line 45
+[23-Apr-2014 00:02:30 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'karpatya'@'localhost' (using password: YES) in /home/karpatya/public_html/page/register_user.php on line 24
+[23-Apr-2014 00:02:30 Europe/Helsinki] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/karpatya/public_html/page/register_user.php on line 25
+[23-Apr-2014 00:02:30 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/karpatya/public_html/page/register_user.php on line 26
+[23-Apr-2014 00:02:30 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/karpatya/public_html/page/register_user.php on line 26
+[23-Apr-2014 00:02:30 Europe/Helsinki] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/karpatya/public_html/page/register_user.php on line 28
+[23-Apr-2014 00:02:30 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/karpatya/public_html/page/register_user.php on line 30
+[23-Apr-2014 00:02:30 Europe/Helsinki] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/karpatya/public_html/page/register_user.php on line 45
+[04-Aug-2014 17:07:53 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '<' in /home/karpatya/public_html/page/register_to.php on line 8
+[04-Aug-2014 17:13:45 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '<' in /home/karpatya/public_html/page/register_to.php on line 8
+[04-Aug-2014 19:31:44 Europe/Helsinki] PHP Warning:  include(/bd.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/karpatya/public_html/page/register_to.php on line 2
+[04-Aug-2014 19:31:44 Europe/Helsinki] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/bd.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/karpatya/public_html/page/register_to.php on line 2
+[04-Aug-2014 19:31:44 Europe/Helsinki] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/karpatya/public_html/page/register_to.php on line 21
+[04-Aug-2014 19:31:44 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/karpatya/public_html/page/register_to.php on line 23
+[04-Aug-2014 19:31:44 Europe/Helsinki] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/karpatya/public_html/page/register_to.php on line 38
+[04-Aug-2014 19:33:02 Europe/Helsinki] PHP Warning:  include(/bd.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/karpatya/public_html/page/register_to.php on line 2
+[04-Aug-2014 19:33:02 Europe/Helsinki] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/bd.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/karpatya/public_html/page/register_to.php on line 2
+[04-Aug-2014 19:33:02 Europe/Helsinki] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/karpatya/public_html/page/register_to.php on line 21
+[04-Aug-2014 19:33:02 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/karpatya/public_html/page/register_to.php on line 23
+[04-Aug-2014 19:33:02 Europe/Helsinki] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/karpatya/public_html/page/register_to.php on line 38
+[04-Aug-2014 19:34:37 Europe/Helsinki] PHP Warning:  include(/bd.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/karpatya/public_html/page/register_to.php on line 2
+[04-Aug-2014 19:34:37 Europe/Helsinki] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/bd.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/karpatya/public_html/page/register_to.php on line 2
+[04-Aug-2014 19:34:37 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/page/register_to.php on line 25
+[09-Dec-2014 23:56:57 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'karpatya'@'localhost' (using password: NO) in /home/karpatya/public_html/page/catalog.php on line 32
+[09-Dec-2014 23:56:57 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/karpatya/public_html/page/catalog.php on line 32
+[09-Dec-2014 23:56:57 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/page/catalog.php on line 33
+[09-Dec-2014 23:56:57 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'karpatya'@'localhost' (using password: NO) in /home/karpatya/public_html/page/catalog.php on line 74
+[09-Dec-2014 23:56:57 Europe/Helsinki] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/karpatya/public_html/page/catalog.php on line 74
+[09-Dec-2014 23:56:57 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/page/catalog.php on line 76
+[26-Dec-2014 12:30:09 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_to.php on line 45
+[26-Dec-2014 12:30:09 Europe/Helsinki] PHP Notice:  Undefined variable: subject2 in /home/karpatya/public_html/page/register_to.php on line 63
+[03-Jan-2015 09:06:04 Europe/Helsinki] PHP Notice:  Undefined index: birthday in /home/karpatya/public_html/page/register_user.php on line 8
+[03-Jan-2015 09:06:04 Europe/Helsinki] PHP Notice:  Undefined index: city in /home/karpatya/public_html/page/register_user.php on line 12
+[03-Jan-2015 09:06:04 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_user.php on line 50
+[08-Jan-2015 12:03:32 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_to.php on line 45
+[08-Jan-2015 12:03:32 Europe/Helsinki] PHP Notice:  Undefined variable: subject2 in /home/karpatya/public_html/page/register_to.php on line 63
+[12-Jan-2015 11:52:02 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_to.php on line 45
+[12-Jan-2015 11:52:02 Europe/Helsinki] PHP Notice:  Undefined variable: subject2 in /home/karpatya/public_html/page/register_to.php on line 63
+[13-Jan-2015 12:58:34 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_to.php on line 45
+[13-Jan-2015 12:58:34 Europe/Helsinki] PHP Notice:  Undefined variable: subject2 in /home/karpatya/public_html/page/register_to.php on line 63
+[14-Jan-2015 11:17:52 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_to.php on line 45
+[14-Jan-2015 11:17:52 Europe/Helsinki] PHP Notice:  Undefined variable: subject2 in /home/karpatya/public_html/page/register_to.php on line 63
+[14-Jan-2015 17:11:58 Europe/Helsinki] PHP Notice:  Undefined index: birthday in /home/karpatya/public_html/page/register_user.php on line 8
+[14-Jan-2015 17:11:58 Europe/Helsinki] PHP Notice:  Undefined index: city in /home/karpatya/public_html/page/register_user.php on line 12
+[14-Jan-2015 17:11:58 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_user.php on line 50
+[25-Jan-2015 02:50:10 Europe/Helsinki] PHP Notice:  Undefined index: validator in /home/karpatya/public_html/page/contact.php on line 2
+[28-Jan-2015 21:23:21 Europe/Helsinki] PHP Notice:  Undefined index: birthday in /home/karpatya/public_html/page/register_user.php on line 8
+[28-Jan-2015 21:23:21 Europe/Helsinki] PHP Notice:  Undefined index: city in /home/karpatya/public_html/page/register_user.php on line 12
+[28-Jan-2015 21:23:21 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_user.php on line 50
+[29-Jan-2015 20:21:44 Europe/Helsinki] PHP Notice:  Undefined index: birthday in /home/karpatya/public_html/page/register_user.php on line 8
+[29-Jan-2015 20:21:44 Europe/Helsinki] PHP Notice:  Undefined index: city in /home/karpatya/public_html/page/register_user.php on line 12
+[29-Jan-2015 20:21:44 Europe/Helsinki] PHP Notice:  Undefined index: gender in /home/karpatya/public_html/page/register_user.php on line 15
+[29-Jan-2015 20:21:44 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_user.php on line 50
+[29-Jan-2015 20:22:17 Europe/Helsinki] PHP Notice:  Undefined index: birthday in /home/karpatya/public_html/page/register_user.php on line 8
+[29-Jan-2015 20:22:17 Europe/Helsinki] PHP Notice:  Undefined index: city in /home/karpatya/public_html/page/register_user.php on line 12
+[29-Jan-2015 20:22:17 Europe/Helsinki] PHP Notice:  Undefined index: gender in /home/karpatya/public_html/page/register_user.php on line 15
+[06-Feb-2015 19:42:24 Europe/Helsinki] PHP Notice:  Undefined index: birthday in /home/karpatya/public_html/page/register_user.php on line 8
+[06-Feb-2015 19:42:24 Europe/Helsinki] PHP Notice:  Undefined index: city in /home/karpatya/public_html/page/register_user.php on line 12
+[06-Feb-2015 19:42:24 Europe/Helsinki] PHP Notice:  Undefined index: gender in /home/karpatya/public_html/page/register_user.php on line 15
+[06-Feb-2015 19:42:24 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_user.php on line 50
+[09-Feb-2015 22:40:54 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_to.php on line 45
+[09-Feb-2015 22:40:54 Europe/Helsinki] PHP Notice:  Undefined variable: subject2 in /home/karpatya/public_html/page/register_to.php on line 63
+[14-Feb-2015 11:24:19 Europe/Helsinki] PHP Notice:  Undefined index: format in /home/karpatya/public_html/page/register_to.php on line 12
+[14-Feb-2015 11:24:19 Europe/Helsinki] PHP Notice:  Undefined variable: subject in /home/karpatya/public_html/page/register_to.php on line 45
+[14-Feb-2015 11:24:19 Europe/Helsinki] PHP Notice:  Undefined variable: subject2 in /home/karpatya/public_html/page/register_to.php on line 63

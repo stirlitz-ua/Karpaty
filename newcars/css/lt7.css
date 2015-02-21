@@ -1,0 +1,12 @@
+.model .img-frame .remove {
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/ico-remove.png',sizingmethod='crop');
+	background:none;
+}
+.aside-1 .categories li form .ui-slider .ui-slider-handle { { {
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/slider-handle.png',sizingmethod='crop');
+	background:none;
+}
+.drop-down .bg {
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-drop-down.png',sizingmethod='crop');
+	background:none;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security>
+	<policies>
+		<!--<policy>e.g. www.volkswagen.de/crossdomain.xml</policy>-->
+	</policies>
+	<domains>
+		<!--<domain>www.volkswagen.de</domain> -->		
+	</domains>
+</security>

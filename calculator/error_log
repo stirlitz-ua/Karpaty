@@ -1,0 +1,28 @@
+[26-Aug-2014 15:04:28 Europe/Helsinki] PHP Parse error:  syntax error, unexpected ')' in /home/karpatya/public_html/calculator/index.php on line 8
+[26-Aug-2014 15:04:30 Europe/Helsinki] PHP Parse error:  syntax error, unexpected ')' in /home/karpatya/public_html/calculator/index.php on line 8
+[26-Aug-2014 15:04:36 Europe/Helsinki] PHP Parse error:  syntax error, unexpected ')' in /home/karpatya/public_html/calculator/index.php on line 8
+[26-Aug-2014 15:04:37 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/karpatya/public_html/calculator/index.php on line 11
+[26-Aug-2014 15:04:56 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:04:56 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:04:56 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 10
+[26-Aug-2014 15:05:12 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:05:12 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:05:12 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 10
+[26-Aug-2014 15:05:13 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:05:13 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:05:13 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 10
+[26-Aug-2014 15:05:13 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:05:13 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:05:13 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 10
+[26-Aug-2014 15:05:13 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:05:13 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:05:13 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 10
+[26-Aug-2014 15:05:14 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:05:14 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:05:14 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 10
+[26-Aug-2014 15:08:45 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:08:45 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:08:45 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 10
+[26-Aug-2014 15:10:00 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:10:00 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 9
+[26-Aug-2014 15:10:00 Europe/Helsinki] PHP Warning:  Division by zero in /home/karpatya/public_html/calculator/index.php on line 10

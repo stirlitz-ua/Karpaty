@@ -1,0 +1,20 @@
+vwd4 = (typeof(vwd4) === 'undefined') ? {} : vwd4;
+vwd4.config = (typeof(vwd4.config) === 'undefined') ? {} : vwd4.config;
+vwd4.config.enableDebug = false;
+vwd4.config.enableFallback = false;
+vwd4.config.classJavascriptEnabled = "vwd4_jsEnabled";
+vwd4.config.minFlashPlayerVersion = "10.0.0";
+vwd4.config.ajaxUrlNoScript = "http://www.volkswagen.ru/ru.m507_fallbackversion_disclaimer.html";
+vwd4.config.isWCM = function() { var isInsideContentfinder= typeof(window.top.CQ_ContentFinder) !== 'undefined'; return isInsideContentfinder; }
+vwd4.config.ajaxUrlAddition = ".ajax";
+vwd4.config.splitCharHashElement = "|";
+vwd4.config.splitCharHashKeyValue = "=";
+vwd4.config.splitCharHashFlashId = "@";
+vwd4.config.deepLinkFirstChar = "/";
+vwd4.config.defaultHashValue = "none";
+jQuery.address.strict("");
+vwd4.config.getTrackConfig = function() { return {}; };
+vwd4.config.onAjaxLoadTrack = function() {};
+vwd4.config.onClickTrack = function() {};
+vwd4.config.share = (typeof(vwd4.config.share) === 'undefined') ? {} : vwd4.config.share;
+vwd4.config.share.enabled = false;

@@ -1,0 +1,508 @@
+/* Flash CSS Document */
+
+/* Possible css properties
+	font-family
+	font-size
+	font-style
+	font-weight
+	leading
+	marginLeft
+	marginRight
+	textAlign 
+	direction
+*/
+
+.light
+{
+	color: #FFFFFF;
+}
+
+.dark
+{
+	color: #000000;
+}
+
+
+.H1
+{
+	font-family: HeadlineBlack;
+	font-size: 30px;
+	font-weight: regular;
+	color: #111111;
+	leading: 34px;
+	margin-left: 0px;
+	direction: ltr;
+}
+
+.H2
+{
+	font-family: HeadlineBlack;
+	font-size: 24px;
+	font-weight: regular;
+	color: #111111;
+	leading: 32px;
+	margin-left: 0px;
+	direction: ltr;
+}
+
+.H3
+{
+	font-family: HeadlineBlack;
+	font-size: 16px;
+	font-weight: regular;
+	color: #111111;
+	leading: 17px;
+	margin-left: 0px;
+	direction: ltr;
+}
+
+
+
+.H3:hover
+{
+	font-family: HeadlineBlack;
+	font-size: 16px;
+	font-weight: regular;
+	color: #2274AC;
+	leading: 17px;
+	margin-left: 0px;
+	direction: ltr;
+}
+
+
+
+.H4
+{
+	font-family: HeadlineBlack;
+	font-size: 14px;
+	font-weight: regular;
+	color: #111111;
+	leading: 17px;
+	margin-left: 0px;
+	direction: ltr;
+}
+
+.H6
+{
+	font-family: HeadlineBlack;
+	font-size: 12px;
+	color: #111111;
+	leading: 13px;
+	margin-left: 0px;
+	direction: ltr;
+}
+
+.H7
+{
+	font-family: HeadlineBlack;
+	font-size: 10px;
+	color: #FFFFFF;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;	
+}
+
+.H10
+{
+	font-family: HeadlineBlack;
+	font-size: 20px;
+	color: #111111;
+	leading: 13px;
+	margin-left: 0px;
+	direction: ltr;
+}
+
+.S1
+{
+	font-family: HeadlineSemibold;
+	font-size: 12px;
+	color: #111111;
+	leading: 14px;
+	margin-left: 0px;	
+	direction: ltr;
+}
+
+
+.S1:hover
+{
+	font-family: HeadlineSemibold;
+	font-size: 12px;
+	color: #2274AC;
+	leading: 14px;
+	margin-left: 0px;	
+	direction: ltr;
+}
+/* number of Cars */
+.CC
+{
+	font-family: HeadlineSemibold;
+	font-size: 12px;
+	color: #ffffff;
+	margin-left: 0px;	
+	direction: ltr;
+}
+
+.C1
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #333333;
+	leading: 14px;
+	margin-left: 0px;
+	direction: ltr;
+}
+
+.C1_selected
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	leading: 14px;
+	margin-left: 0px;
+	direction: ltr;
+}
+
+
+.C1_center
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #333333;
+	leading: 0px;
+	textAlign: center;
+	margin-left: 0px;
+	direction: ctr;
+}
+
+.C2
+{
+	font-family: HeadlineBook;
+	font-size: 11px;
+	color: #333333;
+	leading: 0px;
+	margin-left: 0px;
+	direction: ltr;	
+}
+
+.N6
+{
+	font-family: HeadlineBlack;
+	font-size: 12px;
+	color: #111111;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;		
+}
+.N6:hover
+{
+	font-family: HeadlineBlack;
+	font-size: 12px;
+	color: #2274AC;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;		
+}
+
+.N6VWN
+{
+	font-family: HeadlineBlack;
+	font-size: 12px;
+	color: #111111;
+	textAlign: center;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;		
+}
+.N6VWN:hover
+{
+	font-family: HeadlineBlack;
+	font-size: 12px;
+	color: #2274AC;
+	textAlign: center;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;		
+}
+
+
+.N7
+{
+	font-family: HeadlineBlack;
+	font-size: 12px;
+	color: #8994A0;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;		
+}
+
+.N7:hover
+{
+	font-family: HeadlineBlack;
+	font-size: 12px;
+	color: #2274AC;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;		
+}
+
+.Fml1
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #33434C;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.Fml1:hover
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+
+.Fml1H16
+{
+	font-family: HeadlineSemibold;
+	font-size: 12px;
+	color: #33434C;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.Fml1H16:hover
+{
+	font-family: HeadlineSemibold;
+	font-size: 12px;
+	color: #2274AC;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+
+.Fml3
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #33434C;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.Fml3:hover
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.Fml4
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #33434C;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.Fml4:hover
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+
+.Lnk1
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	leading: 14px;
+	margin-left: 0px;
+	direction: ltr;
+}
+
+.Lnk1:hover
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	leading: 14px;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration:underline;
+}
+
+.Lnk2
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	leading: 14px;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration:underline;
+}
+
+.Lnk2:hover
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	leading: 14px;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration:underline;
+}
+
+.Fkt2
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	leading: 14px;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration:none;
+}
+
+.Fkt2:hover
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	leading: 14px;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration:underline;
+}
+
+.Fkt3
+{
+	font-family: HeadlineSemibold;
+	font-size: 12px;
+	color: #2274AC;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+
+.Fkt3:hover
+{
+	font-family: HeadlineSemibold;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+
+.Std3
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #33434C;
+	leading: 14px;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration:underline;
+}
+
+.Std1Orange
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.Std1Orange:hover
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.Std1Blue
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.Std1Blue:hover
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.CtaOrange
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.CtaOrange:hover
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 0px;
+	direction: ltr;	
+	text-decoration: none;
+}
+.CtaBlue
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.CtaBlue:hover
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.Std2
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: none;
+}
+.Std2:hover
+{
+	font-family: HeadlineBook;
+	font-size: 12px;
+	color: #2274AC;
+	margin-left: 0px;
+	direction: ltr;
+	text-decoration: underline;
+}

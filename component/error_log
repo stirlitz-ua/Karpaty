@@ -1,0 +1,154 @@
+[12-Nov-2013 23:48:16 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 18
+[12-Nov-2013 23:48:16 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 26
+[12-Nov-2013 23:48:16 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 36
+[12-Nov-2013 23:48:16 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 59
+[12-Nov-2013 23:48:50 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 18
+[12-Nov-2013 23:48:50 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 26
+[12-Nov-2013 23:48:50 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 36
+[12-Nov-2013 23:48:50 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 59
+[13-Nov-2013 00:16:37 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 18
+[13-Nov-2013 00:16:37 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 26
+[13-Nov-2013 00:16:37 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 36
+[13-Nov-2013 00:16:37 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 59
+[13-Nov-2013 00:45:12 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 18
+[13-Nov-2013 00:45:12 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 26
+[13-Nov-2013 00:45:12 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 36
+[13-Nov-2013 00:45:12 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 59
+[13-Nov-2013 02:07:34 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 18
+[13-Nov-2013 02:07:34 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 26
+[13-Nov-2013 02:07:34 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 36
+[13-Nov-2013 02:07:34 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 59
+[13-Nov-2013 05:38:04 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 18
+[13-Nov-2013 05:38:04 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 26
+[13-Nov-2013 05:38:04 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 36
+[13-Nov-2013 05:38:04 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 59
+[13-Nov-2013 06:37:37 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 18
+[13-Nov-2013 06:37:37 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 26
+[13-Nov-2013 06:37:37 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 36
+[13-Nov-2013 06:37:37 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 59
+[30-Apr-2014 15:14:22 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 59
+[30-Apr-2014 15:14:22 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 98
+[30-Apr-2014 15:14:36 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 59
+[30-Apr-2014 15:14:36 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 98
+[30-Apr-2014 15:14:42 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 59
+[30-Apr-2014 15:14:42 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 98
+[30-Apr-2014 15:14:48 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 59
+[30-Apr-2014 15:14:48 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 98
+[30-Apr-2014 15:15:23 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 98
+[30-Apr-2014 15:15:50 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[30-Apr-2014 15:15:50 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 97
+[30-Apr-2014 15:16:04 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[30-Apr-2014 15:16:04 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 97
+[30-Apr-2014 15:16:10 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[30-Apr-2014 15:16:10 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 97
+[30-Apr-2014 15:16:47 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[30-Apr-2014 15:16:47 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 97
+[30-Apr-2014 15:17:49 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[30-Apr-2014 15:17:49 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 97
+[30-Apr-2014 15:18:35 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[30-Apr-2014 15:18:38 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[30-Apr-2014 15:54:23 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_IS_NOT_EQUAL, expecting ',' or ')' in /home/karpatya/public_html/component/model.php on line 55
+[30-Apr-2014 15:54:28 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_IS_NOT_EQUAL, expecting ',' or ')' in /home/karpatya/public_html/component/model.php on line 55
+[30-Apr-2014 15:55:13 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_IS_NOT_EQUAL, expecting ',' or ')' in /home/karpatya/public_html/component/model.php on line 55
+[30-Apr-2014 15:55:21 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_IS_NOT_EQUAL, expecting ',' or ')' in /home/karpatya/public_html/component/model.php on line 55
+[30-Apr-2014 15:55:27 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_IS_NOT_EQUAL, expecting ',' or ')' in /home/karpatya/public_html/component/model.php on line 55
+[30-Apr-2014 15:55:31 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_IS_NOT_EQUAL, expecting ',' or ')' in /home/karpatya/public_html/component/model.php on line 55
+[30-Apr-2014 15:55:39 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_IS_NOT_EQUAL, expecting ',' or ')' in /home/karpatya/public_html/component/model.php on line 55
+[30-Apr-2014 15:58:42 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '}' in /home/karpatya/public_html/component/model.php on line 92
+[30-Apr-2014 15:58:45 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '}' in /home/karpatya/public_html/component/model.php on line 92
+[30-Apr-2014 15:59:25 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_ELSE in /home/karpatya/public_html/component/model.php on line 58
+[30-Apr-2014 15:59:33 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_ELSE in /home/karpatya/public_html/component/model.php on line 58
+[30-Apr-2014 16:00:45 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_ELSE in /home/karpatya/public_html/component/model.php on line 57
+[30-Apr-2014 16:00:49 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_ELSE in /home/karpatya/public_html/component/model.php on line 57
+[30-Apr-2014 16:47:30 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '}' in /home/karpatya/public_html/component/model.php on line 7
+[30-Apr-2014 17:56:30 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end in /home/karpatya/public_html/component/model.php on line 120
+[30-Apr-2014 17:56:50 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end in /home/karpatya/public_html/component/model.php on line 120
+[30-Apr-2014 17:56:55 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end in /home/karpatya/public_html/component/model.php on line 120
+[30-Apr-2014 17:57:31 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end in /home/karpatya/public_html/component/model.php on line 120
+[30-Apr-2014 17:57:36 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end in /home/karpatya/public_html/component/model.php on line 120
+[30-Apr-2014 17:58:38 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end in /home/karpatya/public_html/component/model.php on line 121
+[30-Apr-2014 17:58:55 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end in /home/karpatya/public_html/component/model.php on line 115
+[23-May-2014 16:48:22 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '"' in /home/karpatya/public_html/component/jcr_gallery.php on line 31
+[23-May-2014 16:48:32 Europe/Helsinki] PHP Parse error:  syntax error, unexpected ',' in /home/karpatya/public_html/component/jcr_gallery.php on line 31
+[23-May-2014 16:51:29 Europe/Helsinki] PHP Fatal error:  Cannot use string offset as an array in /home/karpatya/public_html/component/jcr_gallery.php on line 12
+[23-May-2014 16:51:36 Europe/Helsinki] PHP Fatal error:  Cannot use string offset as an array in /home/karpatya/public_html/component/jcr_gallery.php on line 12
+[23-May-2014 17:03:19 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '"' in /home/karpatya/public_html/component/jcr_gallery.php on line 17
+[23-May-2014 17:03:42 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/karpatya/public_html/component/jcr_gallery.php on line 17
+[04-Aug-2014 20:29:18 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[04-Aug-2014 20:29:25 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[04-Aug-2014 20:29:43 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/karpatya/public_html/component/model.php on line 58
+[04-Aug-2014 20:29:50 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/karpatya/public_html/component/model.php on line 58
+[04-Aug-2014 20:30:43 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/karpatya/public_html/component/model.php on line 58
+[04-Aug-2014 20:31:01 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/karpatya/public_html/component/model.php on line 58
+[04-Aug-2014 20:34:14 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 19
+[04-Aug-2014 20:34:14 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 27
+[04-Aug-2014 20:34:14 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 37
+[04-Aug-2014 20:34:14 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/karpatya/public_html/component/model.php on line 58
+[04-Aug-2014 20:34:43 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 19
+[04-Aug-2014 20:34:43 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/karpatya/public_html/component/model.php on line 57
+[04-Aug-2014 20:35:03 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/karpatya/public_html/component/model.php on line 57
+[04-Aug-2014 20:35:33 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/karpatya/public_html/component/model.php on line 57
+[04-Aug-2014 20:35:41 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/karpatya/public_html/component/model.php on line 57
+[04-Aug-2014 20:36:43 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 19
+[04-Aug-2014 20:37:04 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 19
+[04-Aug-2014 20:37:32 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/karpatya/public_html/component/model.php on line 87
+[04-Aug-2014 20:55:13 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 19
+[04-Aug-2014 20:56:30 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 19
+[04-Aug-2014 20:56:36 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 19
+[04-Aug-2014 20:58:09 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[04-Aug-2014 20:58:12 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[04-Aug-2014 20:58:33 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 20:58:36 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 21:03:42 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '[' in /home/karpatya/public_html/component/model.php on line 69
+[04-Aug-2014 21:03:58 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '[' in /home/karpatya/public_html/component/model.php on line 69
+[04-Aug-2014 21:29:05 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '[' in /home/karpatya/public_html/component/model.php on line 69
+[04-Aug-2014 21:31:15 Europe/Helsinki] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/karpatya/public_html/component/model.php on line 58
+[04-Aug-2014 22:06:04 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '[' in /home/karpatya/public_html/component/model.php on line 55
+[04-Aug-2014 22:10:34 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or '$' in /home/karpatya/public_html/component/model.php on line 49
+[04-Aug-2014 22:11:55 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or '$' in /home/karpatya/public_html/component/model.php on line 49
+[04-Aug-2014 22:11:59 Europe/Helsinki] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or '$' in /home/karpatya/public_html/component/model.php on line 49
+[04-Aug-2014 22:52:13 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:52:20 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:53:27 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:53:32 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:53:52 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:53:55 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:54:01 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:54:17 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:54:21 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:54:47 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:54:50 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:56:24 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 22:56:47 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in /home/karpatya/public_html/component/model.php on line 56
+[04-Aug-2014 23:01:19 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '[' in /home/karpatya/public_html/component/model.php on line 93
+[04-Aug-2014 23:01:27 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '[' in /home/karpatya/public_html/component/model.php on line 93
+[04-Aug-2014 23:02:25 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '[' in /home/karpatya/public_html/component/model.php on line 93
+[04-Aug-2014 23:03:27 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '[' in /home/karpatya/public_html/component/model.php on line 93
+[04-Aug-2014 23:03:46 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '[' in /home/karpatya/public_html/component/model.php on line 93
+[04-Aug-2014 23:07:22 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/karpatya/public_html/component/model.php on line 98
+[04-Aug-2014 23:07:24 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/karpatya/public_html/component/model.php on line 98
+[04-Aug-2014 23:07:26 Europe/Helsinki] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/karpatya/public_html/component/model.php on line 98
+[17-Dec-2014 09:39:35 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 09:46:07 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 10:40:03 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 10:41:34 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 10:47:43 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 10:54:25 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 11:16:21 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 11:17:58 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 11:18:02 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 11:18:06 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 11:30:19 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 11:30:37 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 12:23:52 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 12:24:04 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 12:29:30 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 12:50:44 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 13:02:07 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 13:11:47 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 13:47:00 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 13:51:36 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 13:51:48 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 15:17:51 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 15:17:59 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3
+[17-Dec-2014 16:25:30 Europe/Helsinki] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Headers and client library minor version mismatch. Headers:50533 Library:100015 in /home/karpatya/public_html/bd.php on line 3

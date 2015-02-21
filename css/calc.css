@@ -1,0 +1,336 @@
+ * 
+ {
+ 	padding: 0;
+ 	margin: 0;
+ }
+ #js-container
+ {
+ 	font: bold 16px Arial,Tahoma, Verbana;
+ }
+ #js-container a, #js-container a:visited, #js-container a:active, #js-container a:link, #js-container a:hover { color: white;}
+ a.tyt {
+ 	color: #0B3669;
+ }
+#js-container  div.text {
+width: auto;
+padding: 0px;
+text-align: center;
+clear: both;
+float: none;
+ }
+ #js-container a 
+ {
+ 	background: none;
+ 	padding: 0px;
+ }
+ #js-container
+ {
+ 	overflow: hidden;
+ 	width: 680px;
+ 	height: 435px;
+ 	margin: 0px auto;
+ 	background-color: #0B3669; /*  #003c7a */
+ 	color: white;
+ 	position: relative;
+	 }
+
+ #blic 
+ {
+ 	width: 479px;
+	height: 322px;
+	position: absolute;
+	top: -500px;
+	left: 359px;
+	background: url('http://calc.nespi.com.ua/images/gradient-round.png') no-repeat;
+ }
+#type-kredit, #type-lising {
+	position: absolute;
+	top: 5px;
+ 	left: 497px;
+ 	font-size: 24px;
+}
+#type-lising {display: none;}
+ #gnom 
+ {
+ 	padding-top: 30px;
+ 	text-align: center;
+ 	display: none;
+	width: 132px;
+	height: 315px;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 334px;
+ 	font-size: 24px;
+ }
+ #calc-content 
+ {
+
+ 	display: none;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	width: 90%;
+ 	height: 100%;
+ }
+ #left-gnom-content 
+ {
+	position: absolute;
+	top: 75px;
+	left: 120px;
+	width: 352px;
+	text-align: center;
+ }
+ #right-gnom-content 
+ {
+ 	position: absolute;
+ 	top: 75px;
+ 	left: 655px;
+ 	/*background-color: #ddd;*/
+ 	width: 252px;
+ 	text-align: center;
+ }
+ .stone-cont  { 
+		float: left;
+		font: normal 14px Arial, Tahoma;
+		margin: 0px 6px;
+ }
+ #kredit-info 
+ {
+ 	color: #3b1e26;
+ 	font: normal 12px Arial, Tahoma;
+ 	position: absolute;
+ 	left: 0px;
+ 	bottom: 0px;
+ 	width: 680px;
+ 	padding: 10px 20px 0px;
+ 	height: 92px;
+ 	background-color: white;
+ }
+ #lising-info 
+ {
+ 	color: #3b1e26;
+ 	font: normal 12px Arial, Tahoma;
+ 	position: absolute;
+ 	left: 0px;
+ 	bottom: -105px;
+ 	width: 680px;
+ 	padding: 10px 20px 0px;
+ 	height: 92px;
+ 	background-color: white;
+ 	display:none;
+ }
+ #credit 
+ {
+ 	display: none;
+ }
+ #main-value 
+ {
+ 	text-align: center;
+ 	position: absolute;
+	top: 222px;
+	left: 16px;
+	font: normal 17px Arial, Tahoma;
+ 	width: 100px;
+ 	height: 50px;
+ }
+ #left-basket 
+ {
+ 	margin-bottom: 15px;
+	margin-left: 50px;
+	width: 253px;
+	height: 102px;
+	background: url(http://calc.nespi.com.ua/images/lbasket.png) 50% -6px no-repeat ;
+	position: relative;
+	z-index: 1;
+ }
+  #left-basket span
+ { z-index: 1; }
+ #lbasket-cont {
+position: absolute;
+	top: 20px;
+	left: 20px;
+
+ }
+ #left-backet-text, #right-backet-text , #left-basket, #right-basket
+ {
+ 	font: normal 17px/126px Arial, Tahoma;
+ }
+ #right-basket 
+ {
+ 	margin-bottom: 15px;
+	width: 253px;
+	height: 102	px;
+ 	background:  url(http://calc.nespi.com.ua/images/rbasket.png) 50% -6px no-repeat;
+ 
+ }
+ #deciment-value 
+ {
+ 	display: block;
+ 	position: absolute;
+ 	top:0px;
+ 	left: 0px;
+ 	width: 253px;
+ 	height: 122px;
+ 	z-index: 10;
+ }
+  #deciment-persent
+ {
+ 	display: block;
+ 	position: absolute;
+ 	top:0px;
+ 	left: 0px;
+ 	width: 253px;
+ 	height: 149px;
+ 	z-index: 10;
+ }
+ #stone-11 
+ {
+ 	display: block;
+ 	width: 84px;
+ 	padding-top: 40px !important;
+ 	height: 24px;
+ 	background: url(http://calc.nespi.com.ua/stones/1.1.png) 50% no-repeat !important;
+ }
+  #stone-11:hover
+ {
+ 	background: url(http://calc.nespi.com.ua/stones/1.png) 50% no-repeat !important;
+ }
+ #stone-12 
+ {
+ 	display: block;
+ 	width: 69px;
+ 	padding-top: 40px !important;
+ 	height: 24px;
+ 	background: url(http://calc.nespi.com.ua/stones/2.2.png) 50% no-repeat !important;
+ }
+  #stone-12:hover
+ {
+ 	background: url(http://calc.nespi.com.ua/stones/2.png) 50% no-repeat !important;
+ }
+ #stone-13 
+ {
+ 	display: block;
+ 	width: 62px;
+ 	padding-top: 40px !important;
+ 	height: 24px;
+ 	background: url(http://calc.nespi.com.ua/stones/3.3.png) 50% no-repeat !important;
+ }
+  #stone-13:hover
+ {
+ 	background: url(http://calc.nespi.com.ua/stones/3.png) 50% no-repeat !important;
+ }
+ #stone-14 
+ {
+ 	display: block;
+ 	width: 47px;
+ 	padding-top: 40px !important;
+ 	height: 24px;
+ 	background: url(http://calc.nespi.com.ua/stones/4.4.png) 50% 12px no-repeat !important;
+ }
+  #stone-14:hover
+ {
+ 	background: url(http://calc.nespi.com.ua/stones/4.png) 50% 12px no-repeat !important;
+ }
+ #stone-21 
+ {
+ 	display: block;
+ 	width: 84px;
+ 	padding-top: 40px !important;
+ 	height: 24px;
+ 	background: url(http://calc.nespi.com.ua/stones/5.5.png) 50% no-repeat !important;
+ }
+  #stone-21:hover
+ {
+ 	background: url(http://calc.nespi.com.ua/stones/5.png) 50% no-repeat;
+ }
+ #stone-22 
+ {
+ 	display: block;
+ 	width: 84px;
+ 	padding-top: 40px !important;
+ 	height: 24px;
+ 	background: url(http://calc.nespi.com.ua/stones/6.6.png) 50% no-repeat !important;
+ }
+  #stone-22:hover
+ {
+ 	background: url(http://calc.nespi.com.ua/stones/6.png) 50% no-repeat !important;
+ }
+ #reset 
+ {
+ 	position: absolute;
+ 	right: 15px;
+ 	bottom: 105px;
+
+ }
+ #left-gnom-block
+ {
+ 	position: absolute;
+ 	top: 20px;
+ 	left: 20px;
+ 	width: 100px;
+ 	text-align: center;
+ }
+ #left-gnom-block a 
+ {
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ }
+ #info-link {
+ 	position: absolute;
+ 	top: 5px;
+ 	left:5px;
+ }
+ #info-link div{
+ 	display: none;
+ 	z-index: 1000;
+ }  
+ #info-link:hover div{
+ 	display: block;
+ } 
+ #small-gomm-ten 
+ {
+ 	position: absolute;
+ 	top: 40px;
+ 	left: 20px;
+ 	opacity: 1;
+ }
+ #small-gomm 
+ {
+ 	position: absolute;
+ 	top: 35px;
+ 	left: 20px;
+ }
+ #small-gomm img{ /*13.05.2014*/
+ 	width: 60px;
+ 	height: 137px;
+ }
+ #right-stone-shadow , .right-stone-shadow ,#left-stone-shadow
+ {
+ 	z-index:10;
+ 	position: absolute;
+ 	display: none;
+ }
+ #lising, #credit 
+ {
+ display: block;
+ 	margin-top: 176px;
+ }
+ a img { border: none;}
+ #gnom-content-1, #gnom-content-2 
+ {
+ 	display: none;
+ }
+a:active, a:focus {
+   outline:  none;
+   ie-dummy: expression(this.hideFocus=true);
+}
+#left-basket span  , #right-basket span {position: relative; z-index: 1; cursor: pointer;}
+#line
+{
+	width: 0px;
+ 	height: 171px;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	 	background: url('http://calc.nespi.com.ua/images/backtop.jpg') no-repeat #0B3669;
+}	

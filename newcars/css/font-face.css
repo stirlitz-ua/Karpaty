@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'aFuturaOrtoRegular';
+	src: url('../fonts/a_futuraorto_regular-webfont.eot');
+	src: url('../fonts/a_futuraorto_regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/a_futuraorto_regular-webfont.woff') format('woff'),
+		url('../fonts/a_futuraorto_regular-webfont.ttf') format('truetype'),
+		url('../fonts/a_futuraorto_regular-webfont.svg#aFuturaOrtoRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
